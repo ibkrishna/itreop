@@ -1,0 +1,243 @@
+.socialmedia_details {
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+    align-items: center;
+    background: url('../assets/img/socialmedia.png');
+    margin-bottom: 3rem;
+    box-shadow: inset 0px 0px 10px 1000px #0000004b;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* color: white;  */
+}
+
+/* .socialmediaheadline {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.socialmediacontent {
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.startigy_socialmedia {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.socialmedia_strategy {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    height: 200px;
+   
+
+}
+
+.strategy_content {
+
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.socialmedia_mainheading {
+    padding-top: 20px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+  
+
+
+}
+
+.socilamedia_secondcontent {
+    text-align: center;
+}
+
+.ocialmediabottomcontent {
+    text-align: center;
+}
+
+.socialmedia_services {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10rem;
+    padding-left: 100px;
+
+} */
+
+
+
+/* Default styling for desktop view */
+/* Default styling for all devices */
+.socialmedia_details {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .socialmedia_details h1 {
+    font-size: 2.5rem;
+  }
+  
+  .socialmediaheadline {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .socialmediacontent {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .startigy_socialmedia {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .socialmedia_strategy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .strategy_content {
+    flex: 1;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .socialmedia_contents {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .socialmedia_mainheading {
+    font-size: 2rem;
+  }
+  
+  .socilamedia_secondcontent {
+    font-size: 1.25rem;
+    margin-top: 20px;
+  }
+  
+  .socialmediabottomcontent {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  .socialmedia_services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .socialmediabrand1,
+  .socialmediabrand2,
+  .socialmediabrand3,
+  .socialmediabrand4,
+  .socialmediabrand5,
+  .socialmediabrand6 {
+    flex: 1;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Media query for tablet view */
+  @media (max-width: 768px) {
+    .socialmediaheadline {
+      padding: 20px;
+    }
+  
+    .startigy_socialmedia {
+      padding: 20px;
+    }
+  
+    .socialmedia_strategy {
+      padding: 20px;
+    }
+  
+    .socialmedia_contents {
+      padding: 20px;
+    }
+  
+    .socialmedia_services {
+      gap: 20px;
+      padding: 20px;
+    }
+  }
+  
+  /* Media query for mobile view */
+  @media (max-width: 480px) {
+    .socialmedia_details {
+      padding: 20px;
+    }
+  
+    .socialmediaheadline {
+      padding: 20px;
+    }
+  
+    .startigy_socialmedia {
+      padding: 20px;
+    }
+  
+    .socialmedia_strategy {
+      padding: 20px;
+    }
+  
+    .socialmedia_contents {
+      padding: 20px;
+    }
+  
+    .socialmedia_services {
+      gap: 20px;
+      padding: 20px;
+    }
+  
+    .socialmediacontent h4 {
+      font-size: 1rem;
+    }
+  
+    .socilamedia_secondcontent {
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+  
+    .socialmediabottomcontent {
+      font-size: 0.9rem;
+      margin-top: 10px;
+    }
+  
+    .socialmedia_mainheading {
+      font-size: 1.5rem;
+    }
+  
+    .strategy_content {
+      padding: 10px;
+    }
+  
+    .socialmediabrand1,
+    .socialmediabrand2,
+    .socialmediabrand3,
+    .socialmediabrand4,
+    .socialmediabrand5,
+    .socialmediabrand6 {
+      padding: 10px;
+      font-size: 0.8rem;
+    }
+  }
+  
+  

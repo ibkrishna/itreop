@@ -1,0 +1,70 @@
+:root {
+    --primary: #1363C6;
+    --secondary: #15ACE1;
+    --light: #F4F7FE;
+    --dark: #14183E;
+}
+
+.whyus-item {
+    position: relative;
+    padding: 45px 30px;
+    background: #FFFFFF;
+    transition: .5s;
+}
+
+.whyus-item:hover {
+    background: var(--primary);
+}
+
+.whyus-item .whyus-icon {
+    margin: 0 auto 20px auto;
+    width: 90px;
+    height: 90px;
+    color: var(--primary);
+    background: var(--light);
+    transition: .5s;
+}
+
+.whyus-item:hover .whyus-icon {
+    background: #FFFFFF;
+}
+
+.whyus-item h5,
+.whyus-item p {
+    transition: .5s;
+}
+
+.whyus-item:hover h5,
+.whyus-item:hover p {
+    color: #FFFFFF;
+}
+
+.whyus-item a.btn {
+    position: relative;
+    display: flex;
+    color: var(--primary);
+    transition: .5s;
+    z-index: 1;
+}
+
+.whyus-item:hover a.btn {
+    color: var(--primary);
+}
+
+.whyus-item a.btn::before {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 35px;
+    top: 0;
+    left: 0;
+    border-radius: 35px;
+    background: var(--light);
+    transition: .5s;
+    z-index: -1;
+}
+
+.whyus-item:hover a.btn::before {
+    width: 100%;
+    background: var(--light);
+}

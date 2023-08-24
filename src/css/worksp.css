@@ -1,0 +1,61 @@
+.workp_contents {
+    width: 100%;
+    background-color: white;
+
+}
+
+
+.works_blogs {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 3rem;
+    padding-top: 100px;
+    padding-left: 125px;
+    padding-bottom: 100px;
+
+}
+
+
+.process_text{
+    border: 2px solid white;
+    height: 200px;
+    width: 250px;
+    background-color: wheat;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: brown;
+    
+
+}
+
+
+.work_p_contents {
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+
+.worksp_images {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.worksp_images>img {
+    width: 40%;
+    max-width: 400px;
+    filter: drop-shadow(0px 0px 10px #0000006c);
+}
+
+
+.process_text_contents{
+    padding-top: 20px;
+    color: black;
+}
+
+
+
+/* Default styling for desktop view */
+

@@ -1,0 +1,136 @@
+.software_details{
+    display: flex;
+    justify-content: center;
+    height: 15rem;
+    align-items: center;
+    background: url('../assets/img/bannerimg1.jpeg');
+    margin-bottom: 3rem;
+    box-shadow: inset 0px 0px 10px 1000px #0000004b;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.softwareheadline h2{
+    text-align: center;
+ margin-bottom: 10px ;
+
+}
+
+/* .headlinecontent{
+    border: 2px solid red;
+    height: 200px ;
+    box-sizing: border-box;
+
+}
+
+.headlinecontent h5{
+    text-align: center;
+  
+}
+.headlinecontent h4{
+    text-align: center;
+}
+
+.workingstyle{
+display: grid;
+grid-template-columns: repeat(3 , auto);
+grid-gap: 2rem;
+padding-left: 100px ;
+}
+
+.workingcomponents{
+    border-radius: 20px ;
+    padding-top: 20px ;
+    height: 150px ;
+    width: 250px ;
+    background-color: antiquewhite;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 2rem;
+   margin-bottom: 100px ;
+   justify-content: center;
+   align-items: center;
+}
+
+.doftwarecomponents{
+    display: grid;
+    grid-template-columns: repeat(2 ,auto);
+    gap: 2rem;
+} */
+
+/* Default styling for desktop view */
+.software_details {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .software_details h1 {
+    font-size: 2.5rem;
+  }
+  
+  .softwareheadline {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .headlinecontent {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .workingstyle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .workingcomponents {
+    flex: 1;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .doftwarecomponents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+  }
+  
+  .softwarecontents {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .coreimg {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media query for tablet and mobile view */
+  @media (max-width: 768px) {
+    .software_details {
+      padding: 20px;
+    }
+  
+    .softwareheadline {
+      padding: 20px;
+    }
+  
+    .workingstyle {
+      padding: 20px;
+    }
+  
+    .doftwarecomponents {
+      gap: 20px;
+      padding: 20px;
+    }
+  }
+  

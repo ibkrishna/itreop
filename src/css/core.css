@@ -1,0 +1,116 @@
+.corefeature {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 5rem;
+  width: 100%;
+  background-image: url("https://cdn.vectorstock.com/i/1000x1000/38/13/abstract-digital-futuristic-technology-background-vector-45903813.webp");
+
+}
+
+.core_contents {
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 20px;
+  text-align: left;
+
+}
+
+.core_contents button {
+  background-color: #19376D;
+  height: 40px;
+  width: 120px;
+  border-radius: 12px;
+
+  margin-top: 70px;
+  margin-left: 300px;
+  text-align: center;
+}
+
+.core_contents {
+
+  -webkit-animation: core_contents 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: core_contents 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+} 
+ @-webkit-keyframes core_contents {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes core_contents {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  } 
+} 
+
+
+
+
+
+
+
+.coreimages {
+ padding: 100px 100px 100px;
+
+}
+
+
+
+.coreimages {
+
+  -webkit-animation: coreimages 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: coreimages 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+
+@-webkit-keyframes coreimages {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes coreimages {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+

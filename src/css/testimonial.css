@@ -1,0 +1,335 @@
+#container{
+	width:100%;
+	min-height: 500px;
+	height:100vh;
+	position: relative;
+	background: #e2e2e2;
+	overflow: visible;
+}
+#holder{
+	max-width: 700px;
+	width: 98%;
+	min-height: 360px;
+	height:360px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+#image{
+	width: 40%;
+	height: 100%;
+	float: left;
+	position: relative;
+	z-index: 200;
+	box-shadow:0px 40px 120px 0px rgba(0,0,0,.52);
+	overflow: visible;
+}
+#right{
+	width: 60%;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+#text{
+	width: 60%;
+	height: 320px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 100;
+	background: rgba(255,255,255,.57);
+	box-shadow:0px 40px 120px 0px rgba(0,0,0,.52);
+}
+a{
+	display: block;
+	text-decoration: none;
+	outline: none;
+	outline-color: none;
+
+}
+/* nav{
+	width: 140px;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin:0 0 -25px -70px;
+	z-index: 1000;
+	box-shadow:0px 7px 24px 3px rgba(0,0,0,.52);
+  display:none;
+} */
+#leftBtn{
+	width:50%;
+	height: 100%;
+	float: left;
+	color: rgba(255,255,255,.57);
+	background:#232323;
+	font-size: 25px;
+	line-height: 200%;
+	text-align: center;
+	border-right:1px solid rgba(255,255,255,.57);
+	cursor: pointer;
+	-webkit-transition:all .3s ease-in;
+	-moz-transition:all .3s ease-in;
+	-o-transition:all .3s ease-in;
+	transition:all .3s ease-in;
+}
+#rightBtn{
+	width:50%;
+	height: 100%;
+	float: right;
+	color: rgba(255,255,255,.57);
+	background:#232323;
+	font-size: 25px;
+	line-height: 200%;
+	text-align: center;
+	border-left:1px solid rgba(255,255,255,.57);
+	cursor: pointer;
+	-webkit-transition:all .3s ease-in;
+	-moz-transition:all .3s ease-in;
+	-o-transition:all .3s ease-in;
+	transition:all .3s ease-in;
+}
+#leftBtn:hover,#rightBtn:hover{
+	color: #fff;
+}
+#nav-cirlces{
+	width: 96px;
+	height: 20px;
+	position: absolute;
+	bottom: 8%;
+	left: 50%;
+	margin-left: -50px;
+}
+.circle{
+	width: 20px;
+	height: 100%;
+	float: left;
+	border-radius:100%;
+	border:2px solid #232323;
+	margin:0 6px;
+	cursor: pointer;
+	-webkit-transition:all .75s  cubic-bezier(.86,.3,.07,1);
+	-moz-transition:all .75s  cubic-bezier(.86,.3,.07,1);
+	-o-transition:all .75s  cubic-bezier(.86,.3,.07,1);
+	transition:all .75s  cubic-bezier(.86,.3,.07,1);
+}
+#centerText{
+	width: 100%;
+	height:200px;
+	position: absolute;
+	top: 20%;
+	margin-top:-100px;
+	padding: 10px 0;
+	overflow: visible;
+}
+p{	
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	top: 45px;
+	left: 0;
+	right: -150px;
+	bottom: 0;
+	margin: auto;	
+	font-size: 20px;
+	color: #232323;
+	padding: 0 25px;
+	text-align:center;
+	opacity: 0;
+	-webkit-transition:all 2s  cubic-bezier(.86,.3,.03,1) , opacity .7s cubic-bezier(.86,.3,.47,1) .3s;
+	-moz-transition:all 2s  cubic-bezier(.86,.3,.03,1) , opacity .7s cubic-bezier(.86,.3,.47,1) .3s;
+	-o-transition:all 2s  cubic-bezier(.86,.3,.03,1) , opacity .7s cubic-bezier(.86,.3,.47,1) .3s;
+	transition:all 2s  cubic-bezier(.86,.3,.03,1) , opacity .7s cubic-bezier(.86,.3,.47,1) .3s;
+}
+p.quote.active{
+	right:0;
+	opacity: 1;
+	background: transparent;
+}
+p.quote:nth-child(2){
+	top: 25px;
+}
+.active{
+	background: #232323;
+}
+.img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	right: -100%;
+	background-position: center !important;
+	background-size:cover;	
+	background-repeat: no-repeat;
+	opacity: 0;
+	z-index: 400;
+	-webkit-transition:all 2s  cubic-bezier(.86,.3,.03,1) , opacity .7s cubic-bezier(.86,.3,.47,1) .3s;
+	-moz-transition:all 2s  cubic-bezier(.86,.3,.03,1) , opacity .7s cubic-bezier(.86,.3,.47,1) .3s;
+	-o-transition:all 2s  cubic-bezier(.86,.3,.03,1) , opacity .7s cubic-bezier(.86,.3,.47,1) .3s;
+	transition:all 2s  cubic-bezier(.86,.3,.03,1) , opacity .7s cubic-bezier(.86,.3,.47,1) .3s;
+}
+.img.active{
+	right:0;
+	opacity: 1;
+	z-index: 500;
+}
+.jobs{
+	background: #fff url(https://raw.githubusercontent.com/hemantparashar/images/quote-cards/stevejobs-s.jpg);
+}
+.zuck{
+	background: #fff url(https://raw.githubusercontent.com/hemantparashar/images/quote-cards/markzuck-s.jpg);
+}
+.musk{
+	background: #fff url(https://raw.githubusercontent.com/hemantparashar/images/quote-cards/elonmusk-s.jpg);
+}
+
+#bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.slide{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/*right: -100%;*/
+	opacity: 0;	
+	-webkit-transition:all 1.5s ease;
+	-moz-transition:all 1.5s ease;
+	-o-transition:all 1.5s ease;
+	transition:all 1.5s ease;	
+}
+.slide.active{
+	/*right: 0%;*/
+	opacity: 1;
+}
+.jobs-bg{
+	background: #fff url(https://raw.githubusercontent.com/hemantparashar/images/quote-cards/stevejobs-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zuck-bg{
+	background: #fff url(https://raw.githubusercontent.com/hemantparashar/images/quote-cards/markzuck-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.musk-bg{
+	background: #fff url(https://raw.githubusercontent.com/hemantparashar/images/quote-cards/elonmusk-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* @media screen and (max-width:700px){
+
+	#centerText p{
+		font-size: 20px;
+	}
+} */
+
+@media screen and (max-width:426px){
+  #container{
+    width:100%;
+    min-height: 500px;
+    height:100vh;
+    position: relative;
+    background: #e2e2e2;
+    overflow-x: hidden;
+  }
+  #bg {
+    width: 117%;
+    height: 100%;
+    position: absolute;
+}
+#holder {
+  max-width: 700px;
+  width: 63%;
+  min-height: 360px;
+  height: 360px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box!important; 
+}*/
+#image {
+  width: 163px;
+  height: 343px;
+  float: left;
+  position: absolute;
+  top: 72%;
+  left: 24%;
+  margin-top: -250px;
+  margin-left: -100px;
+}
+#text {
+  width: 77%;
+  height: 320px;
+  position: absolute;
+  top: 0;
+  right: -71px;
+  bottom: 0;
+  margin: auto;
+  z-index: 100;
+  background: rgba(255,255,255,.57);
+  box-shadow: 0px 40px 120px 0px rgba(0,0,0,.52);
+}
+}
+
+@media screen and (max-width:376px){
+  #container{
+    width:100%;
+    min-height: 500px;
+    height:100vh;
+    position: relative;
+    background: #e2e2e2;
+    overflow-x: hidden;
+  }
+  #holder {
+    max-width: 700px;
+    width: 56%;
+    min-height: 360px;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+@media screen and (max-width:321px){
+  #container{
+    width:100%;
+    min-height: 500px;
+    height:100vh;
+    position: relative;
+    background: #e2e2e2;
+    overflow-x: hidden;
+  }
+  #holder {
+    max-width: 700px;
+    width: 52%;
+    min-height: 360px;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  }

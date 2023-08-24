@@ -1,0 +1,75 @@
+:root{
+    --main-color:#112D4E;
+    --second-color:#3F72AF;
+     --third-color:#3282B8;
+     --light-color:#BBE1FA;
+
+}
+
+
+
+
+
+
+
+
+.about-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-img::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../assets/img/bg-about-img.png) top left no-repeat;
+    background-size: contain;
+}
+
+
+/* Service section css  */
+.service-item .service-text {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .06);
+    transition: .5s;
+    z-index: 2;
+}
+
+.service-item:hover .service-text {
+    top: -1.5rem;
+}
+
+.service-item .service-text h5 {
+    transition: .5s;
+}
+
+.service-item:hover .service-text h5 {
+    color: var(--primary);
+}
+
+.service-item .service-btn {
+    position: absolute;
+    width: 80%;
+    height: 3rem;
+    left: 10%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+    transition: .5s;
+    z-index: 1;
+}
+
+.service-item:hover .service-btn {
+    bottom: -1.5rem;
+}

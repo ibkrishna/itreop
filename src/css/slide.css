@@ -1,0 +1,15 @@
+ .slide_img{
+  z-index: -1;
+   /* height: 100vh; */
+    width: 100%;
+    object-fit: cover;
+
+    }
+    .slide_box{
+      padding: 0px ;
+      padding-top: 0px ;
+    }
+    
+
+
+     

@@ -1,0 +1,12 @@
+.webservice{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+   
+}
+
+.webitem{ 
+   
+    height: 200px;
+    width: 250px ;
+    background-color:purple;
+}

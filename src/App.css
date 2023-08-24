@@ -1,0 +1,17 @@
+.App {
+  background-color: #fefefe;
+  height: 100vh;
+  width: 100%;
+}
+
+.sub-container{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.custom-link{
+  text-decoration: none;
+  font-size: 16px;
+  
+}

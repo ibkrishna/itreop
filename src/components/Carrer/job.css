@@ -1,0 +1,239 @@
+/* .main_container_img {
+    display: flex;
+    justify-content: center;
+    height: 15rem;
+    align-items: center;
+    background: url('../../assets/img/bannerimg1.jpeg');
+    margin-bottom: 3rem;
+    box-shadow: inset 0px 0px 10px 1000px #0000004b;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main_container {
+   
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 10px 1000px rgb(231, 225, 225);
+    margin: 100px auto;
+    width: 100%;
+    max-width: 1200px;
+
+    border-radius: 25px;
+
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+
+
+.job_requirements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.job_requirements h5 {
+
+    padding: 7px;
+
+
+}
+
+.job_requirements h4 {
+    padding: 7px;
+}
+
+.job_requirements h6 {
+
+    padding: 7px;
+}
+
+.requirement_btn {
+    padding-bottom: 10px;
+
+}
+
+.requirement_btn button {
+    border: none;
+    height: 20px;
+    background-color: rgb(151, 204, 224);
+    border-radius: 5px;
+    width: 100px;
+}
+
+.apply_requirements button {
+    border: none;
+    height: 50px;
+    width: 110px;
+    background-color: brown;
+    border-radius: 15px;
+
+}
+
+/* For Desktop */
+/* @media only screen and (max-width: 320px) {
+   
+   .job_requirements{
+    padding-bottom: 100px;  
+    width: 320px; 
+ 
+   } 
+} */
+
+
+/* for Mobile Phone */
+/* [class*="col-"] {
+    width: 100%;
+  }
+   */ 
+
+
+
+   /* chat */
+/* job.css */
+
+
+
+.main_container_img{
+  display: flex;
+  justify-content: center;
+  height: 15rem;
+  align-items: center;
+  background: url('../../assets/img/bannerimg1.jpeg');
+  margin-bottom: 3rem;
+  box-shadow: inset 0px 0px 10px 1000px #0000004b;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+.jobs_container {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  
+  }
+  
+  .main_container_img {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .main_container_img h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .main_container_contents {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .main_container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .job_requirements {
+    margin-bottom: 20px;
+  }
+  
+  .job_requirements_maincontents h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .job_requirements_maincontents h5 {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .job_requirement_contents h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .job_requirement_contents h4, .job_requirement_contents h6 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #777;
+  }
+  
+  .requirement_btn_contents {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .requirement_btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .requirement_btn button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .apply_requirements button {
+    background-color: #28a745;
+  }
+  
+  .apply_requirements button:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .main_container {
+      padding: 15px;
+    }
+  
+    .job_requirements_maincontents h1 {
+      font-size: 20px;
+    }
+  
+    .job_requirements_maincontents h5 {
+      font-size: 14px;
+    }
+  
+    .job_requirement_contents h5,
+    .job_requirement_contents h4,
+    .job_requirement_contents h6 {
+      font-size: 12px;
+    }
+  
+    .requirement_btn_contents {
+      justify-content: center;
+    }
+  
+    .requirement_btn {
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+  
+    .requirement_btn button {
+      padding: 4px 8px;
+      font-size: 12px;
+    }
+  
+    .apply_requirements button {
+      padding: 6px 12px;
+      font-size: 14px;
+    }
+  }
+  

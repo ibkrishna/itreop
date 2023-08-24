@@ -1,0 +1,155 @@
+/* .homeservices {
+  border: 2px solid white;
+  padding: 100px 100px 100px 100px;
+
+}
+
+
+.homeservices_topcontents {
+  color: black;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+.homeservices_spancontents {
+  color: brown;
+}
+
+
+
+.baseservices {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 1rem;
+  margin-top: 20px;
+  grid-row-gap: 2rem;
+
+}
+
+.item {
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+  background-color: burlywood;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 20px;
+
+}
+
+
+.item span {
+  color: brown;
+  font-size: 20px;
+}
+
+.item_self_contents {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 50px;
+
+}
+
+.item_contents_button {
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: bisque;
+}
+
+.item_contents_button_div {
+  padding-top: 10px;
+} */
+
+
+
+/* chat */
+/* Default styling for desktop view */
+.homeservices {
+  text-align: center;
+  padding: 40px;
+}
+
+.homeservices_topcontents {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.homeservices_spancontents {
+  color: #007bff;
+}
+
+.baseservices {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item span {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.item_self_contents {
+  margin-top: 10px;
+}
+
+.item_contents_button_div {
+  margin-top: 15px;
+}
+
+.item_contents_button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Media query for tablet and mobile view */
+@media (max-width: 768px) {
+  .homeservices {
+    padding: 20px;
+  }
+
+  .homeservices_topcontents {
+    font-size: 20px;
+  }
+
+  .baseservices {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .item {
+    padding: 15px;
+  }
+
+  .item span {
+    font-size: 16px;
+  }
+
+  .item_self_contents {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .item_contents_button {
+    padding: 6px 12px;
+  }
+}
