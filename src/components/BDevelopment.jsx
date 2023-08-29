@@ -1,6 +1,6 @@
 import React from 'react'
 import './software.css';
-
+import { Container, Row, Col, Button } from 'react-bootstrap';
 function BDevelopment() {
     return (
         <>
@@ -28,208 +28,97 @@ function BDevelopment() {
             </div>
 
 
-
-            <div className="doftwarecomponents">
-
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                <div className="softwarecontents">
-                    <h1> Benefits of Blockchain Development</h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-                    
-                        <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                        <h6>A better looking website with professional design.</h6>
-                        <h6>Expert knowledge of modern web technologies.</h6>
-                        <h6>Customized website design and development.</h6>
-                        <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                        <h6>Quality work that matches and uplifts your brand.</h6>
-                        <h6>Search engine visibility and discoverability.</h6>
-                        <h6>Security checks to protect valuable data.</h6>
-                        <h6>Speed and performance optimization to handle the traffic.</h6>
-                  
-
-                </div>
-
+            <Container>
+        <Row className="g-5 align-items-center">
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/beautiful-cryptocurrency-hologram-design_23-2149250217.jpg?size=626&ext=jpg&uid=R114195933&ga=GA1.2.750320620.1691166365&semt=ais" alt="About Us" />
             </div>
+          </Col>
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
+
+            <h1 className="mb-4">Benefits of Block Chain Development</h1>
+            <p className="mb-4">Blockchain stands as the imminent IT industry disruptor, poised to reshape core paradigms. By ensuring unalterable, trustworthy transactions, this tech, initially conceived for Bitcoin trade, eradicates tampering and obviates intermediaries like banks</p>
+            <p className="mb-4">Managed blockchain, enhancing transaction security and reliability, bears the potential to revolutionize business methodologies.
+              .</p>
 
 
+          </Col>
+        </Row>
+      </Container>
+
+      <Container style={{ margin: "3rem auto" }}>
+        <Row className="g-5-align-items-center">
+
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
+
+            <h1 className="mb-4">Private Blockchain</h1>
+            <p className="mb-4">Elevating Your Business Ecosystem
+
+Unlock the power of private blockchain development to bolster your business operations. Private blockchains offer exclusive accessibility, ensuring that only authorized participants engage in secure and transparent transactions. By harnessing this technology, you streamline processes, enhance data integrity, and foster trust within your network. With reduced reliance on intermediaries and the ability to tailor governance, private blockchains provide cost-effective solutions that align precisely with your organizational needs.</p>
+
+            <p className="mb-4">  Embrace private blockchain development to fortify your digital infrastructure, drive efficiency, and embark on a transformative journey towards heightened operational excellence. </p>
 
 
+          </Col>
 
-            <div className="doftwarecomponents">
-            <div className="softwarecontents">
-                    <h1> Private Blockchains </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-                    
-                        <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                        <h6>A better looking website with professional design.</h6>
-                        <h6>Expert knowledge of modern web technologies.</h6>
-                        <h6>Customized website design and development.</h6>
-                        <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                        <h6>Quality work that matches and uplifts your brand.</h6>
-                        <h6>Search engine visibility and discoverability.</h6>
-                        <h6>Security checks to protect valuable data.</h6>
-                        <h6>Speed and performance optimization to handle the traffic.</h6>
-                  
 
-                </div>
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                
-
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-right" src="https://img.freepik.com/free-photo/3d-cryptocurrency-rendering-design_23-2149074561.jpg?size=626&ext=jpg&uid=R114195933&ga=GA1.2.750320620.1691166365&semt=ais" alt="About Us" />
             </div>
+          </Col>
+        </Row>
+      </Container>
 
 
-
-
-
-            <div className="doftwarecomponents">
-
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                <div className="softwarecontents">
-                    <h1> Consortium Blockchains </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-                    
-                        <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                        <h6>A better looking website with professional design.</h6>
-                        <h6>Expert knowledge of modern web technologies.</h6>
-                        <h6>Customized website design and development.</h6>
-                        <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                        <h6>Quality work that matches and uplifts your brand.</h6>
-                        <h6>Search engine visibility and discoverability.</h6>
-                        <h6>Security checks to protect valuable data.</h6>
-                        <h6>Speed and performance optimization to handle the traffic.</h6>
-                  
-
-                </div>
-
+      <Container>
+        <Row className="g-5 align-items-center">
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-left" src="https://www.comparethecloud.net/wp-content/uploads/2019/06/blockchain-3019121_1920.png" alt="About Us" />
             </div>
+          </Col>
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
+
+            <h1 className="mb-4">Public Blockchain</h1>
+            <p className="mb-4">Unveil boundless opportunities with public blockchain showcased on our platform. Join the global revolution where transparency, decentralization, and innovation converge. Experience seamless, trust-driven transactions accessible to all, while fostering security through consensus mechanisms. Our public blockchain solutions empower businesses to explore new horizons, embrace decentralized applications, and tap into a vibrant ecosystem.</p>
+            <p className="mb-4">Elevate your digital presence, harnessing the power of blockchain to redefine collaboration and efficiency. Join us in shaping the future – where the potential of public blockchain knows no bounds.
 
 
 
 
+.</p>
 
 
+          </Col>
+        </Row>
+      </Container>
+
+      <Container style={{ margin: "3rem auto" }}>
+        <Row className="g-5-align-items-center">
+
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
+
+            <h1 className="mb-4">Real Estate Blockchain</h1>
+            <p className="mb-4">Blockchain development involves the intricate process of conceptualizing, designing, coding, and maintaining decentralized systems that ensure transparent and secure transactions. These systems, implemented through blockchain technology, create a tamper-proof record of data across a distributed network. This technology has applications beyond cryptocurrencies, such as supply chain management and smart contracts. It's about crafting solutions that redefine trust and security in a digital age.</p>
+
+            {/* <p className="mb-4"> Join us in embracing innovation, simplifying processes, and gaining access to a new era of Real Estate that ensures trust and efficiency. Elevate your Real Estate ventures with our transformative Blockchain solutions today. </p> */}
 
 
-            <div className="doftwarecomponents">
-            <div className="softwarecontents">
-                    <h1>Public Blockchains   </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-                    
-                        <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                        <h6>A better looking website with professional design.</h6>
-                        <h6>Expert knowledge of modern web technologies.</h6>
-                        <h6>Customized website design and development.</h6>
-                        <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                        <h6>Quality work that matches and uplifts your brand.</h6>
-                        <h6>Search engine visibility and discoverability.</h6>
-                        <h6>Security checks to protect valuable data.</h6>
-                        <h6>Speed and performance optimization to handle the traffic.</h6>
-                  
+          </Col>
 
-                </div>
-                <div className="softwarecontents">
-               
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-               
 
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-right" src="https://readdive.com/wp-content/uploads/2020/02/Future-of-Blockchain-Technology-in-Real-Estate.jpg" alt="About Us" />
             </div>
-
-
-
-            <div className="doftwarecomponents">
-
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                <div className="softwarecontents">
-                    <h1>Healthcare Blockchain </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-                    
-                        <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                        <h6>A better looking website with professional design.</h6>
-                        <h6>Expert knowledge of modern web technologies.</h6>
-                        <h6>Customized website design and development.</h6>
-                        <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                        <h6>Quality work that matches and uplifts your brand.</h6>
-                        <h6>Search engine visibility and discoverability.</h6>
-                        <h6>Security checks to protect valuable data.</h6>
-                        <h6>Speed and performance optimization to handle the traffic.</h6>
-                  
-
-                </div>
-
-            </div>
-
-
-
-
-
-
-            <div className="doftwarecomponents">
-            <div className="softwarecontents">
-                    <h1> Real Estate Blockchain </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-                    
-                        <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                        <h6>A better looking website with professional design.</h6>
-                        <h6>Expert knowledge of modern web technologies.</h6>
-                        <h6>Customized website design and development.</h6>
-                        <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                        <h6>Quality work that matches and uplifts your brand.</h6>
-                        <h6>Search engine visibility and discoverability.</h6>
-                        <h6>Security checks to protect valuable data.</h6>
-                        <h6>Speed and performance optimization to handle the traffic.</h6>
-                  
-
-                </div>
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                
-
-            </div>
-
-
+          </Col>
+        </Row>
+      </Container>
 
 
             
-            <div className="doftwarecomponents">
-           
-
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                <div className="softwarecontents">
-                    <h1> Gaming and Entertainment Blockchain </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-                    
-                        <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                        <h6>A better looking website with professional design.</h6>
-                        <h6>Expert knowledge of modern web technologies.</h6>
-                        <h6>Customized website design and development.</h6>
-                        <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                        <h6>Quality work that matches and uplifts your brand.</h6>
-                        <h6>Search engine visibility and discoverability.</h6>
-                        <h6>Security checks to protect valuable data.</h6>
-                        <h6>Speed and performance optimization to handle the traffic.</h6>
-                  
-
-                </div>
-
-            </div>
 
         </>
 

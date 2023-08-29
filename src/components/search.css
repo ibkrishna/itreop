@@ -12,29 +12,6 @@
     /* color: white;  */
 }
 
-.socialmediaheadline{
-    text-align: center;
-    margin-bottom: 10px ;
-}
-
-.socialmediacontent{
-    height: 200px ;
-    box-sizing: border-box;  
-}
-
-.startigy_socialmedia{
-    text-align: center;
-    padding-bottom: 100px ;
-}
-
-.socialmedia_strategy{
-    display: grid;
-    grid-template-columns: repeat(7, auto);
-    padding-left: 100px ;
-    /* grid-gap: 10rem; */
-   
-}
-
 .strategy_content{
     /* border: 2px solid red ; */
     height: 100px ;
@@ -65,4 +42,113 @@ text-align: center;
     grid-template-columns: repeat(3, auto);
     grid-gap: 10rem;
     padding-left: 100px ;
-}
+}  */
+
+  /* chat*/
+/* search.css */
+.socialmedia_details {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .socialmediaheadline {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .socialmediacontent {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .second-img {
+    text-align: center;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .whychooseus {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .feature-item {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .btn-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-xxl {
+    padding: 50px 0;
+  }
+  
+  .feature-row {
+    justify-content: center;
+  }
+  
+  .startigy_socialmedia {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .socialmedia_strategy {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .strategy_content {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  /* chat */
+
+  /* yourStyles.css */
+/* Add your existing styles here */
+
+/* Adjust margins and padding for better spacing on smaller screens */
+.feature-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Center the text within feature items */
+  .feature-item .card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Add padding to the bottom of feature item content */
+  .feature-item .card-info p {
+    padding-bottom: 15px;
+  }
+  
+  /* Adjust font size for smaller screens */
+  @media (max-width: 768px) {
+    .feature-item .card-title {
+      font-size: 18px;
+    }
+    .feature-item .card-info p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Make the icons larger on smaller screens */
+  @media (max-width: 576px) {
+    .feature-item .fa-4x {
+      font-size: 3rem;
+    }
+  }
+  

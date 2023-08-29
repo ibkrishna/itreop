@@ -240,4 +240,61 @@
     }
   }
   
+
+
+/* yourStyles.css */
+/* Add your existing styles here */
+
+/* yourStyles.css */
+/* Add your existing styles here */
+
+/* Center the text within advanced feature item */
+.advanced-feature-item .card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Adjust margins and padding for better spacing on smaller screens */
+.advanced-feature-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+/* Add padding to the bottom of advanced feature item content */
+.advanced-feature-item .card-info p {
+  padding-bottom: 15px;
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 768px) {
+  .advanced-feature-item .card-title {
+    font-size: 18px;
+  }
+  .advanced-feature-item .card-info p {
+    font-size: 14px;
+  }
+}
+
+/* Make the icons larger on smaller screens */
+@media (max-width: 576px) {
+  .advanced-feature-item .fa-3x {
+    font-size: 2.5rem;
+  }
+}
+
+.smarketing{
+  height: 100px;
+  width: 100px ;
+}
+
+
+
+
+
+
   

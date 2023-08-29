@@ -23,6 +23,10 @@
     color: var(--primary);
     background: var(--light);
     transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
 
 .whyus-item:hover .whyus-icon {
@@ -67,4 +71,9 @@
 .whyus-item:hover a.btn::before {
     width: 100%;
     background: var(--light);
+}
+
+
+.icon-img{
+    width: 70%;
 }

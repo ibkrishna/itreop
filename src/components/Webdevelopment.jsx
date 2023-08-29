@@ -1,240 +1,187 @@
 import React from 'react'
 import './software.css';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 function Webdevelopment() {
-    return (
-        <>
-            <div className='software_details'>
+  return (
+    <>
+      <div className='software_details'>
 
-                <h1>Website Development </h1>
+        <h1>Website Development </h1>
+      </div>
+      <div className="softwareheadline">
+        <h2>Website Development</h2>
+        <div className="headlinecontent">
+          <h4>Website development encompasses the intricate process of crafting, constructing, launching, and upkeeping a website that's accessible across the global web (internet) or within a secluded network (intranet).</h4>
+          {/* <h4>Leveraging a plethora of open-source tools at our disposal, we have the capability to fashion websites ranging from straightforward static content platforms to intricate web applications. These applications are versatile, serving as conduits for service offerings and even enabling e-commerce enterprises to thrive.</h4> */}
+
+        </div>
+      </div>
+
+      <div className="workingstyle">
+
+        <div className="workingcomponents">Boost Conversion Rates</div>
+        <div className="workingcomponents">Attract Potential Clients</div>
+        <div className="workingcomponents">Increase Brand Exposure</div>
+        <div className="workingcomponents">Listen Consumers Voice</div>
+        <div className="workingcomponents">Develop Trust & Loyalty</div>
+        <div className="workingcomponents">Improve Customer Engagement</div>
+      </div>
+
+
+
+
+
+      <Container>
+        <Row className="g-5 align-items-center">
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/development-growth-progress-icon-concept_53876-13732.jpg?size=626&ext=jpg&uid=R114195933&ga=GA1.2.750320620.1691166365&semt=ais" alt="About Us" />
             </div>
-            <div className="softwareheadline">
-                <h2>Website Development</h2>
-                <div className="headlinecontent">
-                    <h4>Web development involves creating, building, publishing, and maintaining a website for the world-wide-web (internet) or private network (intranet).</h4>
-                    <h4> Using many open-source available tools, we can develop a website with simple static content, or build complex web applications, offer services, and run commerce businesses.</h4>
+          </Col>
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 
-                </div>
+            <h1 className="mb-4">Benefits of Website Development</h1>
+            <p className="mb-4">Unlock endless possibilities with Website Development. Seamlessly showcase your brand's identity and offerings on a global stage. Our custom websites ensure responsive designs, captivating every visitor across devices. Boost online visibility and credibility, reaching wider audiences and fostering trust. Leverage user-friendly navigation for an enhanced customer experience that drives engagement and conversions. From e-commerce to informative platforms, our websites cater to diverse business goals</p>
+            <p className="mb-4">Gain insights through integrated analytics, refining strategies for continuous growth. Harness SEO optimization to rank higher in search results, maximizing organic reach. Elevate your digital presence – let our Website Development be your gateway to success in the digital realm.</p>
+
+
+          </Col>
+        </Row>
+      </Container>
+
+      <Container style={{ margin: "3rem auto" }}>
+        <Row className="g-5-align-items-center">
+
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
+
+            <h1 className="mb-4">E-commerce Websites </h1>
+            <p className="mb-4">Enter the realm of E-commerce Websites and redefine your business landscape. Seamlessly connect with customers through user-friendly platforms that inspire trust and convenience. Our E-commerce solutions offer intuitive navigation, showcasing products with captivating visuals and seamless transactions. Expand your market reach beyond borders, tapping into a global customer base. Benefit from secure payment gateways and robust inventory management for streamlined operations</p>
+
+            <p className="mb-4"> From startups to established enterprises, our E-commerce Websites cater to diverse needs. Engage, sell, and flourish – let our E-commerce expertise transform your online venture into a thriving success story, delivering unparalleled value to both you and your clients.</p>
+
+
+          </Col>
+
+
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-right" src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="About Us" />
             </div>
+          </Col>
+        </Row>
+      </Container>
 
-            <div className="workingstyle">
 
-                <div className="workingcomponents">Boost Conversion Rates</div>
-                <div className="workingcomponents">Attract Potential Clients</div>
-                <div className="workingcomponents">Increase Brand Exposure</div>
-                <div className="workingcomponents">Listen Consumers Voice</div>
-                <div className="workingcomponents">Develop Trust & Loyalty</div>
-                <div className="workingcomponents">Improve Customer Engagement</div>
+
+
+
+
+      <Container>
+        <Row className="g-5 align-items-center">
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/ui-ux-representations-with-laptop_23-2150201871.jpg?w=1380&t=st=1693059492~exp=1693060092~hmac=25a6035a3a7f69aad5cda08ef272796be8fb8b37b84ebd88845a161a3d2b65b5" alt="About Us" />
             </div>
+          </Col>
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
+
+            <h1 className="mb-4">Dynamic Websites </h1>
+            <p className="mb-4">Experience the power of Dynamic Websites – your gateway to immersive online interactions. Seamlessly connect with clients through engaging platforms that adapt to user preferences in real time. Our Dynamic Websites offer personalized content, enhancing user experience and fostering deeper engagement. Stay updated with fresh and relevant information that keeps visitors coming back for more. Benefit from interactive features, from real-time chat to dynamic forms, optimizing client communication.</p>
+            <p className="mb-4">Whether showcasing portfolios, news, or services, our websites resonate with your audience. Ignite connections – let our Dynamic Website solutions transform your online presence into an evolving, captivating experience that resonates with clients and fuels business growth.</p>
 
 
+          </Col>
+        </Row>
+      </Container>
 
-            <div className="doftwarecomponents">
+      <Container style={{ margin: "3rem auto" }}>
+        <Row className="g-5-align-items-center">
 
-                <div className="softwarecontents">
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                <div className="softwarecontents">
-                    <h1> Benefits of Website Development </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
+            <h1 className="mb-4">Static Websites</h1>
+            <p className="mb-4">Introducing the simplicity and elegance of Static Websites – a bridge to connect with clients effectively. Deliver your message with clarity through clean and structured layouts that resonate instantly. Our Static Websites ensure fast loading times and straightforward navigation, offering a seamless browsing experience. Perfect for displaying essential information, portfolios, and contact details, our websites communicate your brand succinctly.</p>
 
-                    <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                    <h6>A better looking website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
+            <p className="mb-4"> With low maintenance requirements, you can focus on your core activities while maintaining an online presence. Embrace the essence of your business – let our Static Website solutions channel your uniqueness, leaving a lasting impression on clients and solidifying your online footprint." </p>
 
 
-                </div>
+          </Col>
 
+
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-right" src="https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2150394443.jpg?w=1380&t=st=1693059942~exp=1693060542~hmac=61f9727b12120180f931c1d7b3de5b6468da3ee5e42157c193c8a7ceac4b3546" alt="About Us" />
             </div>
+          </Col>
+        </Row>
+      </Container>
 
 
-
-
-
-            <div className="doftwarecomponents">
-                <div className="softwarecontents">
-                    <h1>E-Commerce Websites </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-
-                    <h6>A better looking E-commerce website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive E-commerce websites to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
-
-
-                </div>
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-
-
+      <Container>
+        <Row className="g-5 align-items-center">
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/education-application-knowledge-development-concept_53876-105721.jpg?size=626&ext=jpg&uid=R114195933&ga=GA1.2.750320620.1691166365&semt=ais" alt="About Us" />
             </div>
+          </Col>
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
+
+            <h1 className="mb-4">Educational Websites</h1>
+            <p className="mb-4">Discover the potential of Educational Websites – your connection to knowledge and growth. Engage clients with platforms that offer valuable resources, courses, and insights. Our Educational Websites foster a dynamic learning experience, catering to diverse interests and skill levels. Seamlessly navigate through organized content, unlocking a world of information at your fingertips. From interactive quizzes to video tutorials, our websites empower clients to expand their horizons</p>
+            <p className="mb-4"> Whether for schools, universities, or professional training, our solutions redefine education. Bridge the gap – let our Educational Websites be your conduit for sharing expertise, connecting with learners, and inspiring meaningful growth for clients."</p>
 
 
+          </Col>
+        </Row>
+      </Container>
+
+      <Container style={{ margin: "3rem auto" }}>
+        <Row className="g-5-align-items-center">
+
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
+
+            <h1 className="mb-4">B2B Portal</h1>
+            <p className="mb-4">Welcome to the B2B Portal – your gateway to streamlined business interactions. Connect with clients effortlessly through platforms designed to enhance collaboration and efficiency. Our B2B Portals offer secure access to shared resources, fostering trust and seamless communication. Experience real-time data exchange, simplifying transactions and decision-making. From order processing to supply chain management, our portals redefine B2B relationships.</p>
+
+            <p className="mb-4">  Enjoy customized features that cater to specific needs, ensuring a tailored experience for every client. Elevate partnerships – let our B2B Portals be your digital bridge, connecting clients, enhancing operations, and propelling your business into a new era of success. </p>
 
 
-
-            <div className="doftwarecomponents">
-
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                <div className="softwarecontents">
-                    <h1>Booking System </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-
-                    <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                    <h6>A better looking website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
+          </Col>
 
 
-                </div>
-
-            </div>
-
-
-
-
-
-
-
-
-            <div className="doftwarecomponents">
-                <div className="softwarecontents">
-                    <h1> Blogging Website </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-
-                    <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                    <h6>A better looking website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
-
-
-                </div>
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-
-
-            </div>
-
-
-
-            <div className="doftwarecomponents">
-
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                <div className="softwarecontents">
-                    <h1> HelpDesk System </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-
-                    <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                    <h6>A better looking website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
-
-
-                </div>
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-right" src="https://img.freepik.com/free-photo/b2b-business-business-corporate-connection-partnership-concept_53876-120382.jpg?size=626&ext=jpg&uid=R114195933&ga=GA1.2.750320620.1691166365&semt=ais" alt="About Us" />
 
             </div>
+          </Col>
+        </Row>
+      </Container>
 
 
 
 
 
 
-            <div className="doftwarecomponents">
-                <div className="softwarecontents">
-                    <h1> Educational Website</h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-
-                    <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                    <h6>A better looking website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
-
-
-                </div>
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-
-
-            </div>
 
 
 
 
 
-            <div className="doftwarecomponents">
-
-
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                <div className="softwarecontents">
-                    <h1>B2B Portal  </h1>
-
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-
-                    <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                    <h6>A better looking website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
-
-
-                </div>
-
-            </div>
-
-        </>
 
 
 
 
-    );
+
+
+
+
+
+    </>
+
+
+
+
+  );
 };
 export default Webdevelopment;

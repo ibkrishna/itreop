@@ -1,6 +1,6 @@
 import React from 'react'
 import './software.css';
-
+import { Container, Row, Col, Button } from 'react-bootstrap';
 function GADevelopment() {
     return (
         <>
@@ -11,8 +11,8 @@ function GADevelopment() {
             <div className="softwareheadline">
                 <h2>Game Development</h2>
                 <div className="headlinecontent">
-                    <h4>Web development involves creating, building, publishing, and maintaining a website for the world-wide-web (internet) or private network (intranet).</h4>
-                    <h4> Using many open-source available tools, we can develop a website with simple static content, or build complex web applications, offer services, and run commerce businesses.</h4>
+                    <h4> Game dev: conceive, design, code interactive experiences - video games to mobile apps. Immersive worlds, characters, challenges captivate, entertain, engage across platforms. Tech, art, storytelling meld to craft captivating escapes for player enjoyment.</h4>
+                    {/* <h4> Using many open-source available tools, we can develop a website with simple static content, or build complex web applications, offer services, and run commerce businesses.</h4> */}
 
                 </div>
             </div>
@@ -29,207 +29,103 @@ function GADevelopment() {
 
 
 
-            <div className="doftwarecomponents">
-
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                <div className="softwarecontents">
-                    <h1> Benefits of Game Development </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-
-                    <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                    <h6>A better looking website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
+          
+          
 
 
-                </div>
 
+
+
+    
+            <Container>
+        <Row className="g-5 align-items-center">
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150038906.jpg?w=1060&t=st=1693221219~exp=1693221819~hmac=c2063ee5a110a4382c5182c884448486a92c5bac9d6b1e81bc50dad3f56bc096" alt="About Us" />
             </div>
+          </Col>
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
+
+            <h1 className="mb-4">Benefits of Game Development</h1>
+            <p className="mb-4">At our core, we envision transforming businesses through advanced services. We strive to revolutionize the digital landscape by providing cutting-edge solutions that redefine standards. Our commitment is to empower clients with innovative strategies, fostering growth, efficiency, and relevance. We aim to be the driving force behind their success, leveraging expertise to create sustainable impact.</p>
+            <p className="mb-4">By continuously adapting to the ever-evolving digital realm, we aspire to be the forefront of change, enabling businesses to thrive in an interconnected world. Our vision is to be the catalyst that propels businesses towards their full potential, shaping a dynamic and prosperous future.
+              .</p>
 
 
+          </Col>
+        </Row>
+      </Container>
+
+      <Container style={{ margin: "3rem auto" }}>
+        <Row className="g-5-align-items-center">
+
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
+
+            <h1 className="mb-4">Mobile Game Development</h1>
+            <p className="mb-4">Our mission is to be the cornerstone of digital transformation for businesses. Through strategic innovation, we aim to provide tailored solutions that drive efficiency, engagement, and market prominence. We commit to fostering partnerships built on trust and collaboration, ensuring client objectives are not just met but exceeded. By embracing emerging technologies and industry best practices, we strive to consistently deliver measurable value</p>
+
+            <p className="mb-4">  Our mission is to empower businesses to navigate the digital landscape with confidence, equipping them with the tools and strategies needed to thrive in an ever-changing environment. We're dedicated to being the catalyst for our clients' sustained success and growth. </p>
 
 
-
-            <div className="doftwarecomponents">
-                <div className="softwarecontents">
-                    <h1> Video Game Development </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-
-                    <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                    <h6>A better looking website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
+          </Col>
 
 
-                </div>
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-
-
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-right" src="https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150038909.jpg?w=1060&t=st=1693221150~exp=1693221750~hmac=afa8dbfd7ec94142265cb22c2710620eba7c6418f2464d3a30c74c024d845efb" alt="About Us" />
             </div>
+          </Col>
+        </Row>
+      </Container>
 
 
-
-
-
-            <div className="doftwarecomponents">
-
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                <div className="softwarecontents">
-                    <h1> Mobile Game Development </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-
-                    <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                    <h6>A better looking website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
-
-
-                </div>
-
+      <Container>
+        <Row className="g-5 align-items-center">
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-left" src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="About Us" />
             </div>
+          </Col>
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
+
+            <h1 className="mb-4">Educational Game Development</h1>
+            <p className="mb-4">At our core, we envision transforming businesses through advanced services. We strive to revolutionize the digital landscape by providing cutting-edge solutions that redefine standards. Our commitment is to empower clients with innovative strategies, fostering growth, efficiency, and relevance. We aim to be the driving force behind their success, leveraging expertise to create sustainable impact.</p>
+            <p className="mb-4">By continuously adapting to the ever-evolving digital realm, we aspire to be the forefront of change, enabling businesses to thrive in an interconnected world. Our vision is to be the catalyst that propels businesses towards their full potential, shaping a dynamic and prosperous future. .</p>
 
 
+          </Col>
+        </Row>
+      </Container>
+
+      <Container style={{ margin: "3rem auto" }}>
+        <Row className="g-5-align-items-center">
+
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
+
+            <h1 className="mb-4">Multiplayer Game Development</h1>
+            <p className="mb-4">Our mission is to be the cornerstone of digital transformation for businesses. Through strategic innovation, we aim to provide tailored solutions that drive efficiency, engagement, and market prominence. We commit to fostering partnerships built on trust and collaboration, ensuring client objectives are not just met but exceeded. By embracing emerging technologies and industry best practices, we strive to consistently deliver measurable value</p>
+
+            <p className="mb-4">  Our mission is to empower businesses to navigate the digital landscape with confidence, equipping them with the tools and strategies needed to thrive in an ever-changing environment. We're dedicated to being the catalyst for our clients' sustained success and growth. </p>
 
 
+          </Col>
 
 
-
-
-            <div className="doftwarecomponents">
-                <div className="softwarecontents">
-                    <h1>Educational Game Development </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-
-                    <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                    <h6>A better looking website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
-
-
-                </div>
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-
-
+          <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
+            <div className="second-img">
+              <img className="img-fluid slide-in-right" src="https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="About Us" />
             </div>
-
-
-
-            <div className="doftwarecomponents">
-
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                <div className="softwarecontents">
-                    <h1>Multiplayer Game Development </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-
-                    <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                    <h6>A better looking website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
-
-
-                </div>
-
-            </div>
+          </Col>
+        </Row>
+      </Container>
 
 
 
 
 
 
-            <div className="doftwarecomponents">
-                <div className="softwarecontents">
-                    <h1> Puzzle Game Development </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-
-                    <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                    <h6>A better looking website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
 
 
-                </div>
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-
-
-            </div>
-
-
-
-
-
-            <div className="doftwarecomponents">
-
-
-                <div className="softwarecontents">
-
-                    <img className='coreimg' src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?size=626&ext=jpg&ga=GA1.2.1385689953.1689919364&semt=sph" alt="responsiveness" />
-                </div>
-                <div className="softwarecontents">
-                    <h1> Sports Game Development </h1>
-                    <h4>There are many benefits when you hire a custom website development company:</h4>
-
-                    <h6>Reduces costs, so that you can focus on your core business activities. </h6>
-                    <h6>A better looking website with professional design.</h6>
-                    <h6>Expert knowledge of modern web technologies.</h6>
-                    <h6>Customized website design and development.</h6>
-                    <h6>Responsive web design to give the same browsing experience to different devices.</h6>
-                    <h6>Quality work that matches and uplifts your brand.</h6>
-                    <h6>Search engine visibility and discoverability.</h6>
-                    <h6>Security checks to protect valuable data.</h6>
-                    <h6>Speed and performance optimization to handle the traffic.</h6>
-
-
-                </div>
-
-            </div>
 
         </>
 

@@ -16,7 +16,7 @@ function MenuBar() {
             <Nav.Link href="/about">About</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item href="/SDevelopment">Software Development</NavDropdown.Item>
-              <NavDropdown.Item href="/Wdevelopment">Web Development </NavDropdown.Item>
+              <NavDropdown.Item href="/Wdevelopment">Website Development </NavDropdown.Item>
               <NavDropdown.Item href="/ADevelopment">App Development</NavDropdown.Item>
               <NavDropdown.Item href="/BCDevelopment">Block Chain Development</NavDropdown.Item>
               <NavDropdown.Item href="/GDevelopment">Game Development</NavDropdown.Item>

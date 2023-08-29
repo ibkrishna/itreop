@@ -24,18 +24,7 @@ const Contactform = () => {
 
     <>
 
-      <div className='image-header'>
-        <h1>Contact </h1>
-      </div>
-
-      <div className="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div className="container text-center py-5">
-          <nav aria-label="breadcrumb animated slideInDown">
-         
-          </nav>
-        </div>
-      </div>
-      <div className="container-xxl py-5">
+      <div className="container-xxl" style={{paddingTop: "8rem", paddingBottom: "3rem"}}>
         <div className="container">
           <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "500px" }}>
             <p className="fs-5 fw-medium text-primary">Contact Us</p>
@@ -43,20 +32,19 @@ const Contactform = () => {
           </div>
           <div className="row g-5">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <h3 className="mb-4">Need a functional contact form?</h3>
-              <p className="mb-4">The contact form is currently inactive.</p>
+              <h3 className="mb-4">Quick Connects </h3>
               <form>
                 <div className="row g-3">
                   <div className="col-md-6">
                     <div className="form-floating">
                       <input type="text" className="form-control" id="name" placeholder="Your Name" />
-                      <label htmlFor="name">Your Name</label>
+                      <label htmlFor="name">Name</label>
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-floating">
                       <input type="email" className="form-control" id="email" placeholder="Your Email" />
-                      <label htmlFor="email">Your Email</label>
+                      <label htmlFor="email">Email</label>
                     </div>
                   </div>
                   <div className="col-12">
@@ -80,30 +68,37 @@ const Contactform = () => {
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
               <h3 className="mb-4">Contact Details</h3>
               <div className="d-flex border-bottom pb-3 mb-3">
-                <div className="flex-shrink-0 btn-square bg-primary rounded-circle">
+                <div className="flex-shrink-0 btn-square bg-primary rounded-circle contact-icon">
                   <i className="fa fa-map-marker-alt text-white"></i>
                 </div>
                 <div className="ms-3">
                   <h6>Our Office</h6>
-                  <span>123 Street, New York, USA</span>
+                  <span>Unit-930,I-thum Tower, Noida, Uttar Pradesh</span>
                 </div>
               </div>
+              <a className="call-icon-contactus" href="tel:+919650388201"> 
               <div className="d-flex border-bottom pb-3 mb-3">
-                <div className="flex-shrink-0 btn-square bg-primary rounded-circle">
+                <div className="flex-shrink-0 btn-square bg-primary rounded-circle contact-icon">
                   <i className="fa fa-phone-alt text-white"></i>
                 </div>
                 <div className="ms-3">
+                  
                   <h6>Call Us</h6>
-                  <span>+012 345 67890</span>
+                  <span>
+                    +91 9650388201</span>
+                   
                 </div>
               </div>
+              </a>
+             
               <div className="d-flex border-bottom-0 pb-3 mb-3">
-                <div className="flex-shrink-0 btn-square bg-primary rounded-circle">
+                <div className="flex-shrink-0 btn-square bg-primary rounded-circle contact-icon">
                   <i className="fa fa-envelope text-white"></i>
                 </div>
                 <div className="ms-3">
+               
                   <h6>Mail Us</h6>
-                  <span>info@example.com</span>
+                  <span>  <a href=" mailto:support@corplyxtechnologies.com" >support@corplyxtechnologies.com</a></span>
                 </div>
               </div>
               <iframe className="w-100 rounded"

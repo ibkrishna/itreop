@@ -1,60 +1,16 @@
-.image-header{
-  display: flex;
-  justify-content: center;
-  height: 15rem;
-  align-items: center;
-  background: url('../../assets/img/bannerimg1.jpeg');
-  margin-bottom: 3rem;
-  box-shadow: inset 0px 0px 10px 1000px #0000004b;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; 
+.contact-icon{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
-/* For mobile devices */
-@media (max-width: 767px) {
-  .page-header {
-    padding: 3rem 0;
-  }
-  
-  .container-xxl {
-    padding: 2rem 0;
-  }
-  
-  .breadcrumb {
-    justify-content: flex-start;
-  }
-  
-  .breadcrumb-item {
-    margin-right: 0.5rem;
-  }
-  
-  .breadcrumb-item:last-child {
-    margin-right: 0;
-  }
-  
-  .wow {
-    visibility: visible;
-    animation: none;
-  }
-  
-  .text-center.mx-auto.mb-5 {
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-  
-  .form-floating {
-    width: 100%;
-  }
-  
-  .btn-primary.rounded-pill {
-    display: block;
-    width: 100%;
-    margin-top: 1rem;
-  }
-  
-  .col-lg-6.wow.fadeInUp[data-wow-delay="0.1s"],
-  .col-lg-6.wow.fadeInUp[data-wow-delay="0.5s"] {
-    padding: 1rem;
-  }
+
+h6{
+    text-decoration: none;
+}
+
+.ms-3 h6{
+    text-decoration: none;
 }

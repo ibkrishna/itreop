@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
 // import reasonimg from "../assets/img/wimages";
-import pwork from "../css/pwork.css";
+import '../css/Pwork.css';
 function Pwork() {
   const settings = {
     dots: true,
@@ -17,7 +17,7 @@ function Pwork() {
 
 
   return (
-
+<>
     <div className='projects'>
 
       <div className='recent_work'>
@@ -65,6 +65,25 @@ function Pwork() {
 
     </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</>
   )
 }
 

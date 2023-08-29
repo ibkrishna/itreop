@@ -1,49 +1,40 @@
-/* Modal.css */
-.modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-  }
-  
-  .modal-content {
-    background-color: #cfbdbd;
-    padding: 120px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    max-width: 500px;
-    width: 80%;
-    position: relative;
-  }
-  
-  .close {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  
-  /* .show {
-    display: flex;
-  } */
+/* Reset some default styles for better consistency */
+ h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
 
- .modal_submit_btn{
-    padding-top: 100px ;
- }
- 
- .name_modal{
-    padding-top: 50px ;
- }
- input{
-    border: none;
-    
- }
+/* Apply a max-width and center the content */
+.job-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Responsive form columns */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.form-group {
+  flex: 0 0 100%;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .form-group {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+/* Styling for small screens */
+@media (max-width: 576px) {
+  .form-group {
+    flex: 0 0 100%;
+  }
+}
+
  
   

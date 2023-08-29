@@ -1,74 +1,10 @@
-/* .workp_contents {
-    width: 100%;
-    background-color: rgb(210, 255, 127);
-
-}
-
-
-.works_blogs {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 3rem;
-    padding-top: 100px;
-    padding-left: 125px;
-    padding-bottom: 100px;
-
-}
-
-
-.process_text{
-    border: 2px solid white;
-    height: 200px;
-    width: 250px;
-    background-color: wheat;
-    padding-top: 30px;
-    text-align: center;
-    border-radius: 10px;
-    color: brown;
-    
-
-}
-
-
-.work_p_contents {
-    text-align: center;
-    padding-top: 50px;
-
-
-}
-
-.worksp_images {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
-.worksp_images>img {
-    width: 40%;
-    max-width: 400px;
-    filter: drop-shadow(0px 0px 10px #0000006c);
-}
-
-
-.process_text_contents{
-    padding-top: 20px;
-    color: black;
-} */
-
-
-/* worksp.css */
 
 /* General styles */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Main Work Container */
   .workp_contents {
     width: 100%;
-    background-color: rgb(210, 255, 127);
+    
+    background-color: white;
+    /* background-color: aliceblue; */
     padding: 20px; /* Added padding for spacing */
     box-sizing: border-box; /* Include padding in width calculation */
   }
@@ -104,8 +40,9 @@ body {
     padding: 20px;
   }
   
-  .worksp_images > img {
-    max-width: 100%;
+  .worksp_images>img {
+    min-width: 300px;
+    width: 20%;
     height: auto;
     filter: drop-shadow(0px 0px 10px #0000006c);
   }
@@ -136,6 +73,18 @@ body {
       width: 100%; /* Take full width on larger screens */
     }
   }
+
+
+
+  /* below workp */
+
+  .feature-row {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+
+.feature-item {
+    border-color: rgba(0, 0, 0, .03) !important;
+}
   
 
 

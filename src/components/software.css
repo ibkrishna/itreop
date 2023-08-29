@@ -18,48 +18,6 @@
 
 }
 
-/* .headlinecontent{
-    border: 2px solid red;
-    height: 200px ;
-    box-sizing: border-box;
-
-}
-
-.headlinecontent h5{
-    text-align: center;
-  
-}
-.headlinecontent h4{
-    text-align: center;
-}
-
-.workingstyle{
-display: grid;
-grid-template-columns: repeat(3 , auto);
-grid-gap: 2rem;
-padding-left: 100px ;
-}
-
-.workingcomponents{
-    border-radius: 20px ;
-    padding-top: 20px ;
-    height: 150px ;
-    width: 250px ;
-    background-color: antiquewhite;
-    text-align: center;
-    box-sizing: border-box;
-    box-shadow: 2rem;
-   margin-bottom: 100px ;
-   justify-content: center;
-   align-items: center;
-}
-
-.doftwarecomponents{
-    display: grid;
-    grid-template-columns: repeat(2 ,auto);
-    gap: 2rem;
-} */
-
 /* Default styling for desktop view */
 .software_details {
     text-align: center;

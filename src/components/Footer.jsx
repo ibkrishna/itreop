@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/footer.css";
+import {useNavigate} from 'react-router-dom'
 import { BiChevronRight } from "react-icons/bi";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -8,7 +9,10 @@ import { FaLinkedin } from "react-icons/fa"
 import { FaYoutube } from "react-icons/fa";
 import { BiSolidPhoneCall } from 'react-icons/bi';
 
+
 function XFooter() {
+
+  const navigate = useNavigate()
   return (
     <div className='footer'>
       <div className='footer_exclusive'>
@@ -30,13 +34,13 @@ function XFooter() {
             <div className='itservices_services'>
               <div className='footer_item'>IT Services</div>
 
-              <div className='itservices_items'> <BiChevronRight />App Development</div>
-              <div className='itservices_items'><BiChevronRight />Web Development</div>
-              <div className='itservices_items'><BiChevronRight />Cyber Security</div>
-              <div className='itservices_items'><BiChevronRight />Game Development</div>
-              <div className='itservices_items'><BiChevronRight />Social Media Marketing</div>
-              <div className='itservices_items'><BiChevronRight />Block Chain Development</div>
-              <div className='itservices_items'><BiChevronRight />Search Engine Optimization</div>
+              <div className='itservices_items' onClick={()=> navigate('/ADevelopment')}><BiChevronRight />App Development</div>
+              <div className='itservices_items'onClick={()=> navigate('/WDevelopment')}><BiChevronRight />Web Development</div>
+              <div className='itservices_items'onClick={()=> navigate('/CSecurity')}><BiChevronRight />Cyber Security</div>
+              <div className='itservices_items'onClick={()=> navigate('/GDevelopment')}><BiChevronRight />Game Development</div>
+              <div className='itservices_items'onClick={()=> navigate('/SMMarketing')}><BiChevronRight />Social Media Marketing</div>
+              <div className='itservices_items'onClick={()=> navigate('/BCDevelopment')}><BiChevronRight />Block Chain Development</div>
+              <div className='itservices_items'onClick={()=> navigate('/SEOptimization')}><BiChevronRight />Search Engine Optimization</div>
 
 
 
@@ -54,11 +58,11 @@ function XFooter() {
             </div>
             <div className='itservices_services'>
               <div className='footer_item'>Social Links</div>
-              <div className='itservices_items'><FaFacebookF/> Facebook</div>
-              <div className='itservices_items'><FaTwitter/> Twitter</div>
-              <div className='itservices_items'> <FaInstagram/> Instagram</div>
-              <div className='itservices_items'> <FaLinkedin/> Linkedin</div>
-              <div className='itservices_items'><FaYoutube/> Youtube</div>
+              <div className='itservices_items'><a href="https://www.facebook.com/profile.php?id=100095230572986"><FaFacebookF/>Facebook </a></div>
+              <div className='itservices_items'> <a href="https://twitter.com/CorplyxTech"><FaTwitter /> Twitter </a></div>
+              <div className='itservices_items'> <a href="https://www.instagram.com/"><FaInstagram /> Instagram </a></div>
+              <div className='itservices_items'><a href='https://www.linkedin.com/company/corplyx/'> <FaLinkedin /> Linkedin </a></div>
+              {/* <div className='itservices_items'><FaYoutube /> Youtube</div> */}
 
 
             </div>
@@ -72,6 +76,9 @@ function XFooter() {
 
         </div>
       </div>
+
+
+
       <div className='hr_services'>
         <hr />
 
@@ -80,6 +87,7 @@ function XFooter() {
 
 
     </div>
+
   )
 }
 

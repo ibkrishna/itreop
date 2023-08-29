@@ -1,16 +1,10 @@
 :root{
-    --main-color:#112D4E;
+    --main-color:#0b1d34;
     --second-color:#3F72AF;
      --third-color:#3282B8;
      --light-color:#BBE1FA;
 
 }
-
-
-
-
-
-
 
 
 .about-img {
@@ -25,7 +19,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../../assets/img/bg-about-img.png) top left no-repeat;
+    /* background: url(../../assets/img/bg-about-img.png) top left no-repeat; */
     background-size: contain;
 }
 

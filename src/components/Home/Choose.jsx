@@ -1,25 +1,28 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './Choose.css';
+import productive from '../../assets/img/productive.png';
+import Effective  from '../../assets/img/Effective.png';
+import support  from '../../assets/img/support.png';
+import analysis from '../../assets/img/analysis.png';
 
 function Choose() {
   const serviceItems = [
-    { icon: <i class="fa fa-robot fa-2x"></i>, title: 'Complete Support', text: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.' },
-    { icon: <i class="fa fa-power-off fa-2x"></i>, title: 'Complete Support', text: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.' },
-    { icon: <i class="fa fa-graduation-cap fa-2x"></i>, title: 'Complete Support', text: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.' },
-    { icon: <i class="fa fa-brain fa-2x"></i>, title: 'Predictive Analysis', text: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.' }
+    { icon:<img alt='' src={productive} className='icon-img'/>, title: 'Predictive Analysis', text: 'Predictive analysis leverages data to anticipate future outcomes, enabling informed decisions and proactive strategies.' },
+    { icon: <img alt='' src={Effective} className='icon-img'/>, title: 'Effective Strategies', text: 'Effective strategies are well-structured plans that yield optimal results by aligning actions with desired goals.' },
+    { icon: <img alt='' src={analysis} className='icon-img'/>, title: 'Enhanced Online Presence', text: 'Enhanced online presence amplifies visibility, attracting and engaging a wider audience, fostering brand recognition and growth.' },
+    { icon: <img alt='' src={support} className='icon-img'/>, title: 'Complete Support', text: 'Complete support provides comprehensive assistance, ensuring all needs are met and challenges addressed for successful outcomes.' }
 ];
   return (
 <div className="container-fluid bg-light mt-5 py-5">
             <Container>
                 <Row className="g-5 align-items-center">
                     <Col lg={5} className="wow fadeIn" data-wow-delay="0.1s">
-                        <Button variant="outline-primary" size="sm" className="border rounded-pill text-primary px-3 mb-3">Why Us</Button>
-                        <h1 className="mb-4"> Reason of choose the Corplyx Technologies</h1>
-                        <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                            amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                            clita duo justo et tempor eirmod magna dolore erat amet</p>
-                        <Button variant="primary" className="rounded-pill px-4">Read More</Button>
+                        <p variant="outline-primary" style={{width: "fit-content"}} size="sm" className="border rounded-pill text-primary px-3 mb-3">Why Us</p>
+                        <h1 className="mb-4">Why Choose Us </h1>
+                        <p className="mb-4">Choose us for unparalleled services. With years of expertise, we guarantee innovative solutions, reliability, and exceptional results.
+                            </p>
+                        <Button variant="primary" className="button-main rounded-pill px-4">Read More</Button>
                     </Col>
                     <Col lg={7}>
                         <Row className="g-4">

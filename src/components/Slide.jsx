@@ -24,12 +24,14 @@ function Slide() {
       
       <Slider {...settings}>
         <div className="row">
+          <h1>Hello</h1>
           <img
+          
             src={bannerimg1}
             className="slide_img col-lg-12"
             alt="Responsive img"
           />
-          
+         
         </div>
         <div>
           <img

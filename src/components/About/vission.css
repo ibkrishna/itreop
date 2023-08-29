@@ -10,23 +10,15 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
+  padding-top: 60px;
 }
 
 
-.about-img {
-  position: relative;
-  overflow: hidden;
-}
-
-.about-img::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  /* background: url(../../assets/img/bg-about-img.png) top left no-repeat; */
-  background-size: contain;
+.about_banner>h1{
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 
@@ -75,7 +67,9 @@
   bottom: -1.5rem;
 }
 
-
+.g-5-align-items-center{
+  flex-wrap: wrap-reverse;
+}
 
 
 

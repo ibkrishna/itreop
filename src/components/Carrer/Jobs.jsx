@@ -1,25 +1,15 @@
 import React, { useState } from 'react';
 import  './job.css';
-import Modal from './modal';
+import CareerModal from './CareerModal';
 
 function jobs() {
 
-  const [isModalVisible, setModalVisible] = useState(false);
-
-  const openModal = () => {
-    setModalVisible(true);
-  };
-
-  const closeModal = () => {
-    setModalVisible(false);
-  };
-
-
-
+const [showModal, setShowModal] = useState(false)
 
 
   return (
     <>
+    <CareerModal show={showModal} onHide={()=> setShowModal(false)} />
       <div className='jobs_container'>
 
         <div className='main_container_img'>
@@ -64,12 +54,12 @@ function jobs() {
               <div className='apply_requirements'>
 
 
-                <button onClick={openModal}  >Apply Now </button>
+                <button onClick={()=> setShowModal(true)} className='btn button-main' >Apply Now </button>
               </div>
 
 
             </div>
-            <Modal showModal={isModalVisible} closeModal={closeModal} />
+      
 
 
           </div>
@@ -114,12 +104,12 @@ function jobs() {
             <div className='job_requirements'>
               <div className='apply_requirements'>
 
-                <button onClick={openModal}  >Apply Now </button>
+                <button onClick={()=> setShowModal(true)} className='btn button-main' >Apply Now </button>
               </div>
 
 
             </div>
-            <Modal showModal={isModalVisible} closeModal={closeModal} />
+    
           </div>
         </div>
       </div>
@@ -161,8 +151,8 @@ function jobs() {
             <div className='job_requirements'>
               <div className='apply_requirements'>
 
-                <button onClick={openModal} >Apply Now </button>
-                <Modal showModal={isModalVisible} closeModal={closeModal}></Modal>
+                <button className='btn button-main' >Apply Now </button>
+
               </div>
 
             </div>

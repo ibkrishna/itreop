@@ -1,102 +1,3 @@
-/* .main_container_img {
-    display: flex;
-    justify-content: center;
-    height: 15rem;
-    align-items: center;
-    background: url('../../assets/img/bannerimg1.jpeg');
-    margin-bottom: 3rem;
-    box-shadow: inset 0px 0px 10px 1000px #0000004b;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.main_container {
-   
-    background-color: antiquewhite;
-    box-sizing: border-box;
-    box-shadow: inset 0px 0px 10px 1000px rgb(231, 225, 225);
-    margin: 100px auto;
-    width: 100%;
-    max-width: 1200px;
-
-    border-radius: 25px;
-
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-}
-
-
-
-.job_requirements {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-}
-
-.job_requirements h5 {
-
-    padding: 7px;
-
-
-}
-
-.job_requirements h4 {
-    padding: 7px;
-}
-
-.job_requirements h6 {
-
-    padding: 7px;
-}
-
-.requirement_btn {
-    padding-bottom: 10px;
-
-}
-
-.requirement_btn button {
-    border: none;
-    height: 20px;
-    background-color: rgb(151, 204, 224);
-    border-radius: 5px;
-    width: 100px;
-}
-
-.apply_requirements button {
-    border: none;
-    height: 50px;
-    width: 110px;
-    background-color: brown;
-    border-radius: 15px;
-
-}
-
-/* For Desktop */
-/* @media only screen and (max-width: 320px) {
-   
-   .job_requirements{
-    padding-bottom: 100px;  
-    width: 320px; 
- 
-   } 
-} */
-
-
-/* for Mobile Phone */
-/* [class*="col-"] {
-    width: 100%;
-  }
-   */ 
-
-
-
-   /* chat */
-/* job.css */
-
-
 
 .main_container_img{
   display: flex;
@@ -109,8 +10,18 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: white;
 
 
+}
+
+
+
+.main_container_img{
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .jobs_container {
@@ -188,14 +99,19 @@
     cursor: pointer;
   }
   
-  .apply_requirements button {
+  /* .apply_requirements button {
     background-color: #28a745;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
   }
   
   .apply_requirements button:hover {
     background-color: #218838;
+    
   }
-  
+   */
   /* Responsive Styles */
   
   @media (max-width: 768px) {
