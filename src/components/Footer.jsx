@@ -3,12 +3,13 @@ import "../css/footer.css";
 import {useNavigate} from 'react-router-dom'
 import { BiChevronRight } from "react-icons/bi";
 import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+// import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa"
 import { FaYoutube } from "react-icons/fa";
 import { BiSolidPhoneCall } from 'react-icons/bi';
 
+import twitter from '../assets/img/twitter.png';
 
 function XFooter() {
 
@@ -59,13 +60,14 @@ function XFooter() {
             <div className='itservices_services'>
               <div className='footer_item'>Social Links</div>
               <div className='itservices_items'><a href="https://www.facebook.com/profile.php?id=100095230572986"><FaFacebookF/>Facebook </a></div>
-              <div className='itservices_items'> <a href="https://twitter.com/CorplyxTech"><FaTwitter /> Twitter </a></div>
-              <div className='itservices_items'> <a href="https://www.instagram.com/"><FaInstagram /> Instagram </a></div>
-              <div className='itservices_items'><a href='https://www.linkedin.com/company/corplyx/'> <FaLinkedin /> Linkedin </a></div>
+              <div className='itservices_items'><a href="https://twitter.com/CorplyxTech"><img className='twitter-icon'style={{width:"15px",height:"15px", marginRight: "10px"}} src={twitter} alt="" />Twitter</a></div>
+              {/* <FontAwesomeIcon icon="fa-brands fa-x-twitter" /> */}
+              <div className='itservices_items'> <a href="https://www.instagram.com/"><FaInstagram/>Instagram </a></div>
+              <div className='itservices_items'><a href='https://www.linkedin.com/company/corplyx/'> <FaLinkedin />Linkedin </a></div>
               {/* <div className='itservices_items'><FaYoutube /> Youtube</div> */}
 
 
-            </div>
+            </div> 
 
 
           </div>

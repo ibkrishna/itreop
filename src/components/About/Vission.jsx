@@ -1,5 +1,6 @@
 import React from 'react'
 import './vission.css';
+import mission from "../../assets/img/mission.jpg";
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 function Vission() {
@@ -45,7 +46,7 @@ function Vission() {
 
             <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
               <div className="second-img">
-                <img className="img-fluid slide-in-right" src="https://www.powertec.com.pk/img/mission.jpg" alt="About Us" />
+                <img className="img-fluid slide-in-right" src={mission} alt="About Us" />
               </div>
             </Col>
           </Row>

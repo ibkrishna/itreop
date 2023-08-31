@@ -80,7 +80,8 @@ function Webdevelopment() {
         <Row className="g-5 align-items-center">
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
-              <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/ui-ux-representations-with-laptop_23-2150201871.jpg?w=1380&t=st=1693059492~exp=1693060092~hmac=25a6035a3a7f69aad5cda08ef272796be8fb8b37b84ebd88845a161a3d2b65b5" alt="About Us" />
+              
+              <img className="img-fluid slide-in-right" src="https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150104516.jpg?w=1380&t=st=1693480487~exp=1693481087~hmac=1ce42d60a372a8efda632d335139fa16f0dd34d7cc26006b9fa693fe12f458c1" alt="About Us" />
             </div>
           </Col>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
@@ -110,7 +111,7 @@ function Webdevelopment() {
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
-              <img className="img-fluid slide-in-right" src="https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2150394443.jpg?w=1380&t=st=1693059942~exp=1693060542~hmac=61f9727b12120180f931c1d7b3de5b6468da3ee5e42157c193c8a7ceac4b3546" alt="About Us" />
+              <img className="img-fluid slide-in-right" src="https://img.freepik.com/free-photo/html-system-websites-concept_23-2150323528.jpg?w=1060&t=st=1693480664~exp=1693481264~hmac=068b76dd4ccee67ba32235e675be08e8201cfd8248bcbb76c56017f05dc677f4" alt="About Us" />
             </div>
           </Col>
         </Row>

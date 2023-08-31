@@ -93,9 +93,9 @@ const [showModal, setShowModal] = useState(false)
                 <div className='requirement_btn'><button>HTML</button>   </div>
                 <div className='requirement_btn'><button>JavaScript</button></div>
                 <div className='requirement_btn'><button>CSS</button></div>
-                <div className='requirement_btn'><button>Golang</button></div>
-                <div className='requirement_btn'><button>Bitcoin</button></div>
-                <div className='requirement_btn'>   <button>Cyber Security</button></div>
+                <div className='requirement_btn'><button>Typescript</button></div>
+                <div className='requirement_btn'><button>Tailwind CSS</button></div>
+                <div className='requirement_btn'>   <button>React.js</button></div>
 
               </div>
             </div>
@@ -121,7 +121,7 @@ const [showModal, setShowModal] = useState(false)
 
             <div className='job_requirements'>
               <div className='job_requirements_maincontents'>
-                <h1>JavaScript Developer</h1>
+                <h1>Backend  Developer</h1>
                 <h5> Full Time </h5>
               </div>
             </div>
@@ -140,9 +140,9 @@ const [showModal, setShowModal] = useState(false)
                 <div className='requirement_btn'><button>HTML</button>   </div>
                 <div className='requirement_btn'><button>JavaScript</button></div>
                 <div className='requirement_btn'><button>CSS</button></div>
-                <div className='requirement_btn'><button>Golang</button></div>
-                <div className='requirement_btn'><button>Bitcoin</button></div>
-                <div className='requirement_btn'>   <button>Cyber Security</button></div>
+                <div className='requirement_btn'><button>Node.js</button></div>
+                <div className='requirement_btn'><button>Express.js</button></div>
+                <div className='requirement_btn'>   <button>Authentication</button></div>
 
               </div>
             </div>

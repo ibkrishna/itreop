@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import "./Home.css"
+import { About } from '../../pages';
 function BriefAbout() {
   return (
     <div className="container-fluid py-5" style={{background: "#f7f7f7"}}>
@@ -30,11 +31,11 @@ function BriefAbout() {
                             </Col>
                         </Row>
                         <div className="d-flex align-items-center mt-4">
-                            <Button className="button-main rounded-pill px-4 me-3">Read More</Button>
+                            <Button className="button-main rounded-pill px-4 me-3" href="/About" >Read More</Button>
                             <a className="btn  btn-outline-primary btn-square me-3" href="https://www.facebook.com/profile.php?id=100095230572986 "><i className="fab fa-facebook-f"></i></a>
                             <a className="btn btn-outline-primary btn-square me-3" href="https://twitter.com/CorplyxTech"><i className="fab fa-twitter"></i></a>
                             <a className="btn btn-outline-primary btn-square me-3" href="https://www.instagram.com/corplyxtechnologies/"><i className="fab fa-instagram"></i></a>
-                            <a className="btn btn-outline-primary btn-square" href=""><i className="fab fa-linkedin-in"></i></a>
+                            <a className="btn btn-outline-primary btn-square" href="https://www.linkedin.com/company/corplyx/"><i className="fab fa-linkedin-in"></i></a>
                         </div>
                     </Col>
                 </Row>

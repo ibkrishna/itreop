@@ -1,15 +1,22 @@
-.socialmedia_details {
+.socialmediaa_details {
     display: flex;
     justify-content: center;
     height: 20rem;
     align-items: center;
-    background: url('../assets/img/socialmedia.png');
+    background: url('../assets/img/homebanner3.png');
     margin-bottom: 3rem;
     box-shadow: inset 0px 0px 10px 1000px #0000004b;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* color: white;  */
+    color: white; 
+   
+  
+    opacity:0.8;
+}
+
+.slide-in-left{
+  border-radius: 10px;
 }
 
 /* .socialmediaheadline {
@@ -290,6 +297,14 @@
 .smarketing{
   height: 100px;
   width: 100px ;
+  /* padding-bottom: 40px; */
+  
+}
+.m-0{
+  padding-top: 10px;
+}
+.mb-3{
+  padding-top: 20px;
 }
 
 

@@ -41,7 +41,7 @@ function GADevelopment() {
         <Row className="g-5 align-items-center">
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
-              <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150038906.jpg?w=1060&t=st=1693221219~exp=1693221819~hmac=c2063ee5a110a4382c5182c884448486a92c5bac9d6b1e81bc50dad3f56bc096" alt="About Us" />
+              <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/professional-player-wearing-vr-goggles-sitting-gaming-chair-playing-online-space-shooter-game_482257-538.jpg?w=1380&t=st=1693480824~exp=1693481424~hmac=c10d8b1ea5647bb00f6cced77b4ccbdb8c5856c010dddc86bcc021e54c0d4248" alt="About Us" />
             </div>
           </Col>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
@@ -72,7 +72,7 @@ function GADevelopment() {
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
-              <img className="img-fluid slide-in-right" src="https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150038909.jpg?w=1060&t=st=1693221150~exp=1693221750~hmac=afa8dbfd7ec94142265cb22c2710620eba7c6418f2464d3a30c74c024d845efb" alt="About Us" />
+              <img className="img-fluid slide-in-right" src="https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150104519.jpg?w=1380&t=st=1693480874~exp=1693481474~hmac=1dca7014aaca455a3ded70f443f3e142408b902bdff366dc3661a4db8d38ea1c" alt="About Us" />
             </div>
           </Col>
         </Row>

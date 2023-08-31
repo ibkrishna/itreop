@@ -24,7 +24,7 @@ const Contactform = () => {
 
     <>
 
-      <div className="container-xxl" style={{paddingTop: "8rem", paddingBottom: "3rem"}}>
+      <div className="container-xxl" style={{ paddingTop: "8rem", paddingBottom: "3rem" }}>
         <div className="container">
           <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "500px" }}>
             <p className="fs-5 fw-medium text-primary">Contact Us</p>
@@ -76,29 +76,30 @@ const Contactform = () => {
                   <span>Unit-930,I-thum Tower, Noida, Uttar Pradesh</span>
                 </div>
               </div>
-              <a className="call-icon-contactus" href="tel:+919650388201"> 
               <div className="d-flex border-bottom pb-3 mb-3">
                 <div className="flex-shrink-0 btn-square bg-primary rounded-circle contact-icon">
                   <i className="fa fa-phone-alt text-white"></i>
                 </div>
                 <div className="ms-3">
-                  
+
                   <h6>Call Us</h6>
                   <span>
-                    +91 9650388201</span>
-                   
+                    <a className="call-icon-contactus" href="tel:+919650388201" style={{textDecoration: "none"}}>
+                      +91 9650388201
+                    </a>
+                  </span>
+
                 </div>
               </div>
-              </a>
-             
+
               <div className="d-flex border-bottom-0 pb-3 mb-3">
                 <div className="flex-shrink-0 btn-square bg-primary rounded-circle contact-icon">
                   <i className="fa fa-envelope text-white"></i>
                 </div>
                 <div className="ms-3">
-               
+
                   <h6>Mail Us</h6>
-                  <span>  <a href=" mailto:support@corplyxtechnologies.com" >support@corplyxtechnologies.com</a></span>
+                  <span>  <a href=" mailto:support@corplyxtechnologies.com" style={{textDecoration: "none"}} >support@corplyxtechnologies.com</a></span>
                 </div>
               </div>
               <iframe className="w-100 rounded"
@@ -108,7 +109,7 @@ const Contactform = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div >
 
 
 

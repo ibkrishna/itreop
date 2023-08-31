@@ -24,7 +24,7 @@ export const Home = () => {
 
   return (
     <>
-      <Row fluid style={{ overflow: "hidden" }}>
+      
       <Slider components={components}/>
         <BriefAbout />
         <Homeservices />
@@ -32,8 +32,6 @@ export const Home = () => {
         <Worksp />
         <Project/>
         <Footer />
-
-      </Row>
     </>
 
 

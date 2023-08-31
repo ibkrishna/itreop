@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './project.css'
 import bannerimg1 from '../assets/img/bannerimg1.jpeg';
+import alias1 from '../assets/img/alias1.png';
 function Project() {
     return (
         <div className="container-fluid project py-5 my-5">
@@ -14,11 +15,11 @@ function Project() {
                     <Col md={6} lg={4} className="wow fadeIn" data-wow-delay=".3s">
                         <div className="project-item">
                             <div className="project-img">
-                                <img src='https://images.unsplash.com/photo-1538991383142-36c4edeaffde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60' className="img-fluid w-100 rounded" alt="" />
+                                <img src='https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?w=1060&t=st=1693385617~exp=1693386217~hmac=a1acbc41e8070519da6ff84546884f84f45adc837df745c8ca2879e015b5e97a' className="img-fluid w-100 rounded" alt="" />
                                 <div className="project-content">
-                                    <a href="#" className="text-center">
-                                        <h4 className="text-secondary">Web design</h4>
-                                        <p className="m-0 text-white">Web Analysis</p>
+                                    <a href="https://cornerviewsolutions.com/" className="text-center">
+                                        <h4 className="text-secondary">Cornerviewsolutions</h4>
+                                        <p className="m-0 text-white">IT Project</p>
                                     </a>
                                 </div>
                             </div>
@@ -27,13 +28,13 @@ function Project() {
                     <Col md={6} lg={4} className="wow fadeIn" data-wow-delay=".5s">
                         <div className="project-item">
                             <div className="project-img">
-                                {/* <img src="https://cdn.pixabay.com/photo/2023/08/18/11/35/frog-8198313_640.jpg" className="img-fluid w-100 rounded" alt="" /> */}
+                                <img src="https://img.freepik.com/free-photo/html-system-website-concept_23-2150376732.jpg?w=1060&t=st=1693386124~exp=1693386724~hmac=69a9c7bab097d175b1c4decc0b1ad9915980670b8602884b7eb50322ca400ebc" className="img-fluid w-100 rounded" alt="" />
 
-                                <img src= {bannerimg1} className="img-fluid w-100 rounded" alt="" />
+                                {/* <img src= {bannerimg1} className="img-fluid w-100 rounded" alt="" /> */}
                                 <div className="project-content">
-                                    <a href="#" className="text-center">
-                                        <h4 className="text-secondary">Cyber Security</h4>
-                                        <p className="m-0 text-white">Cyber Security Core</p>
+                                    <a href="https://aliastechsolutions.com/" className="text-center">
+                                        <h4 className="text-secondary">Aliastechsolutions</h4>
+                                        <p className="m-0 text-white">IT Project</p>
                                     </a>
                                 </div>
                             </div>
@@ -42,11 +43,12 @@ function Project() {
                     <Col md={6} lg={4} className="wow fadeIn" data-wow-delay=".7s">
                         <div className="project-item">
                             <div className="project-img">
-                                <img src="https://cdn.pixabay.com/photo/2023/08/15/11/47/mushroom-8191823_640.jpg" className="img-fluid w-100 rounded" alt="" />
+                                 {/* <img src= {alias1} className="img-fluid w-100 rounded" alt="" /> */}
+                                <img src="https://img.freepik.com/free-photo/medium-shot-man-working-laptop_23-2150323506.jpg?w=996&t=st=1693386065~exp=1693386665~hmac=19395290e1e166dffd6b7d0008a1058f0a9040eb25d4221119a60fbcd52f2915" className="img-fluid w-100 rounded" alt="" />
                                 <div className="project-content">
-                                    <a href="#" className="text-center">
-                                        <h4 className="text-secondary">Mobile Info</h4>
-                                        <p className="m-0 text-white">Upcoming Phone</p>
+                                    <a href="https://wellyweb.co.in/" className="text-center">
+                                        <h4 className="text-secondary">wellyweb</h4>
+                                        <p className="m-0 text-white">IT Project </p>
                                     </a>
                                 </div>
                             </div>

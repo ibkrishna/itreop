@@ -34,11 +34,11 @@ function App() {
 
       </Routes>
       <div className="quick-contact">
-        <a href="tel:+919650388201">
-          <FiPhoneCall style={{color: "#ffff"}} />
+        <a href="tel:+919650388201" title="Call Us">
+          <FiPhoneCall style={{color: "#0079FF"}} />
         </a>
-        <a href="https://wa.me/+919650388201" target="_blank" rel="noopener noreferrer">
-          <ImWhatsapp style={{color: "#ffff"}}/>
+        <a href="https://wa.me/+919650388201" target="_blank" rel="noopener noreferrer" title="Whatsapp">
+          <ImWhatsapp style={{color: "#25d366"}}/>
         </a>
       </div>
 

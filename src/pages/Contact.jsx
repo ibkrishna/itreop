@@ -8,21 +8,12 @@ import Contactform from "../components/Contact/Contactform";
 
 export const Contact = () => {
   return (
-    
-
-
-    <>
+        <>
    
     <Contactform/>
     <Footer/>
     
-    </>
-   
-
-   
-    
-  
-    
+    </>    
   );
   
 };

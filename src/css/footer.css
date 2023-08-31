@@ -1,87 +1,98 @@
-.itservices_items a{
- text-decoration: none;
-color: white;
-cursor: pointer;
+.itservices_items a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 .footer {
-    background-color:#0b1d34;
-    color: white;
-    padding: 60px 0;
-  }
-  
-  .footer_exclusive {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
+  background-color: #0b1d34;
+  color: white;
+  padding: 60px 0;
+}
+
+.footer_exclusive {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.twitter-icon {
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+ /* margin: 10px; */
+
+}
+
+.footer_item {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.itservices_services {
+  padding: 20px;
+}
+
+.skmarketing {
+  height: 20px;
+  width: 20px;
+}
+
+.itservices_items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.itservices_items svg {
+  margin-right: 10px;
+}
+
+.footer_item_left {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.itservices_items_left {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.hr_services hr {
+  border-top: 1px solid #5c5c5c;
+  margin: 30px 0;
+}
+
+.hr_services h5 {
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
   .footer_grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    grid-template-columns: 1fr;
   }
-  
+
   .footer_item {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
   }
-  
+
   .itservices_services {
-    padding: 20px;
-  }
-  
-  .itservices_items {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-    cursor: pointer;
-  }
-  
-  .itservices_items svg {
-    margin-right: 10px;
-  }
-  
-  .footer_item_left {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 15px;
-  }
-  
-  .itservices_items_left {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-  }
-  
-  .hr_services hr {
-    border-top: 1px solid #5c5c5c;
-    margin: 30px 0;
-  }
-  
-  .hr_services h5 {
-    font-size: 14px;
     text-align: center;
   }
-  
-  @media (max-width: 768px) {
-    .footer_grid {
-      grid-template-columns: 1fr;
-    }
-    
-    .footer_item {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-  
-    .itservices_services {
-      text-align: center;
-    }
-  
-    .itservices_items, .itservices_items_left {
-      justify-content: center;
-    }
-  }
-  
 
+  .itservices_items,
+  .itservices_items_left {
+    justify-content: center;
+  }
+}

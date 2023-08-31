@@ -20,13 +20,14 @@
   
   .prev-button,
   .next-button {
-    background-color: #3333335a;
+    background-color: #2d2d2d73;
     color: #fff;
     border: none;
     height: 40px;
     width: 40px;
     border-radius: 50%;
     cursor: pointer;
+    z-index: 9999;
   }
   
   .prev-button {
