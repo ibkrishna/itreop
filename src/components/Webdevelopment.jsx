@@ -8,14 +8,6 @@ function Webdevelopment() {
 
         <h1>Website Development </h1>
       </div>
-      <div className="softwareheadline">
-        <h2>Website Development</h2>
-        <div className="headlinecontent">
-          <h4>Website development encompasses the intricate process of crafting, constructing, launching, and upkeeping a website that's accessible across the global web (internet) or within a secluded network (intranet).</h4>
-          {/* <h4>Leveraging a plethora of open-source tools at our disposal, we have the capability to fashion websites ranging from straightforward static content platforms to intricate web applications. These applications are versatile, serving as conduits for service offerings and even enabling e-commerce enterprises to thrive.</h4> */}
-
-        </div>
-      </div>
 
       <div className="workingstyle">
 

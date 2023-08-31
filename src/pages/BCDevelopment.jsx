@@ -8,16 +8,6 @@ return(
 <>
 <BDevelopment/>
 <Footer/>
-
-
 </>
-
-
-
-
-
-
-
-
 )
  }

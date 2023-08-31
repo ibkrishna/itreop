@@ -12,7 +12,7 @@ const [showModal, setShowModal] = useState(false)
     <CareerModal show={showModal} onHide={()=> setShowModal(false)} />
       <div className='jobs_container'>
 
-        <div className='main_container_img'>
+        <div className='software_details'>
           <h1>Carrers</h1>
 
         </div>

@@ -7,7 +7,7 @@ function Vission() {
   return (
     <>
       <div>
-        <div className='about_banner'>
+        <div className='software_details'>
           <h1>About</h1>
         </div>
 

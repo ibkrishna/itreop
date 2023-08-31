@@ -14,20 +14,12 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 function SMarketing() {
     return (
         <>
-            <div className='socialmediaa_details'>
+            <div className='software_details'>
 
                 <h1>Social Media Marketing </h1>
             </div>
 
-            <div className="socialmediaheadline">
-                <h2>Social Media Marketing</h2>
-                <div className="socialmediacontent">
-                    <h4> 
-Social Media Marketing functions encompass creating, curating content, engaging users, analyzing data, and optimizing strategies. It's about building brand presence, fostering connections, and driving business goals through platforms like Facebook, Instagram, Twitter, and more.</h4>
-                    {/* <h4> Using many open-source available tools, we can develop a website with simple static content, or build complex web applications, offer services, and run commerce businesses.</h4> */}
-
-                </div>
-            </div>
+      
 
             <Container>
         <Row className="g-5 align-items-center">

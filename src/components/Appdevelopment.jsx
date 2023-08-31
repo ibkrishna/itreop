@@ -10,15 +10,6 @@ function Appdevelopment() {
 
                 <h1> App Development </h1>
             </div>
-            <div className="softwareheadline">
-                <h2>App Development</h2>
-                <div className="headlinecontent">
-                    <h4>App development entails the meticulous journey of conceptualizing, designing, coding, and maintaining applications that cater to a multitude of user needs. These applications range from mobile apps to desktop software, enriching user experiences, simplifying tasks, and optimizing workflows across diverse domains.</h4>
-                    {/* <h4> Using many open-source available tools, we can develop a website with simple static content, or build complex web applications, offer services, and run commerce businesses.</h4> */}
-
-                </div>
-            </div>
-
             <div className="workingstyle">
 
                 <div className="workingcomponents">Boost Conversion Rates</div>

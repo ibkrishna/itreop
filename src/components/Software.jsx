@@ -10,15 +10,7 @@ function Software() {
 
         <h1>Software Development </h1>
       </div>
-      <div className="softwareheadline">
-        <h2>Software Development</h2>
-        <div className="headlinecontent">
-          <h4>
-Software development involves the intricate orchestration of conceptualizing, designing, coding, and maintaining applications that cater to various needs. These applications span from desktop software to mobile apps, facilitating tasks, enhancing user experiences, and streamlining operations across diverse industries. </h4>
-          {/* <h4> Using many open-source available tools, we can develop a website with simple static content, or build complex web applications, offer services, and run commerce businesses.</h4> */}
-
-        </div>
-      </div>
+  
 
       <div className="workingstyle">
 

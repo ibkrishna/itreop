@@ -8,14 +8,6 @@ function GADevelopment() {
 
                 <h1>Game Development </h1>
             </div>
-            <div className="softwareheadline">
-                <h2>Game Development</h2>
-                <div className="headlinecontent">
-                    <h4> Game dev: conceive, design, code interactive experiences - video games to mobile apps. Immersive worlds, characters, challenges captivate, entertain, engage across platforms. Tech, art, storytelling meld to craft captivating escapes for player enjoyment.</h4>
-                    {/* <h4> Using many open-source available tools, we can develop a website with simple static content, or build complex web applications, offer services, and run commerce businesses.</h4> */}
-
-                </div>
-            </div>
 
             <div className="workingstyle">
 

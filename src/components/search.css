@@ -121,6 +121,7 @@ text-align: center;
 /* Adjust margins and padding for better spacing on smaller screens */
 .feature-item {
     margin-bottom: 20px;
+    text-align: left;
   }
   
   /* Center the text within feature items */

@@ -8,15 +8,7 @@ function Cyber() {
 
                 <h1>Cyber Security </h1>
             </div>
-            <div className="softwareheadline">
-                <h2>Cyber Security</h2>
-                <div className="headlinecontent">
-                    <h4>
-Cybersecurity involves robust defense strategies against digital threats like unauthorized access, breaches, and attacks. It ensures data confidentiality, integrity, and availability through encryption, risk assessment, and vigilance. It's vital in our interconnected digital landscape.</h4>
-                    {/* <h4> Using many open-source available tools, we can develop a website with simple static content, or build complex web applications, offer services, and run commerce businesses.</h4> */}
-
-                </div>
-            </div>
+          
 
             <div className="workingstyle">
 

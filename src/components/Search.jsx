@@ -14,22 +14,10 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 function Search() {
     return (
         <>
-            <div className='socialmedia_details'>
+            <div className='software_details'>
 
                 <h1>Search Engine Optimization </h1>
             </div>
-
-            <div className="socialmediaheadline">
-                <h2>Search Engine Optimization</h2>
-                <div className="socialmediacontent">
-                    <h4>SEO optimizes content, keywords, links, boosting rankings, traffic, and user experience for increased website visibility, credibility, and conversions. </h4>
-                    {/* <h4> Using many open-source available tools, we can develop a website with simple static content, or build complex web applications, offer services, and run commerce businesses.</h4> */}
-
-                </div>
-            </div>
-
-
-
             <Container>
         <Row className="g-5 align-items-center">
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">

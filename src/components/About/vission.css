@@ -1,20 +1,20 @@
-
-.about_banner{
+.about_banner {
   display: flex;
   justify-content: center;
   height: 15rem;
   align-items: center;
-  background: url('../../assets/img/bannerimg1.jpeg');
+  background: url('../assets/img/headerBG.jpg');
   margin-bottom: 3rem;
-  box-shadow: inset 0px 0px 10px 1000px #0000004b;
+  box-shadow: inset 0px 0px 10px 1000px #112d4ec1;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; 
-  padding-top: 60px;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 5rem;
 }
 
 
-.about_banner>h1{
+.about_banner>h1 {
   color: #fff;
   font-size: 50px;
   letter-spacing: 3px;
@@ -60,18 +60,13 @@
   box-shadow: 0 0 45px rgba(0, 0, 0, .07);
   transition: .5s;
   z-index: 1;
- 
+
 }
 
 .service-item:hover .service-btn {
   bottom: -1.5rem;
 }
 
-.g-5-align-items-center{
+.g-5-align-items-center {
   flex-wrap: wrap-reverse;
 }
-
-
-
-
-

@@ -12,14 +12,13 @@ export default function CareerModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-         Welcome in Corplyx Technologies
+         Application Form
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
 {/* form code  start */}
 
 <div>
-      <h1> Application Form</h1>
       <form
         acceptCharset="UTF-8"
         action="mailto:corplyxtechnologies000@gmail.com"
@@ -72,7 +71,7 @@ export default function CareerModal(props) {
           <label className="mr-4">Upload your CV:</label>
           <input type="file" name="file" />
         </div>
-        <button type="submit" className="btn btn-primary">Submit</button>
+        <button type="submit" className="btn button-main" style={{margin: "0 auto", display: "block"}}>Submit</button>
       </form>
     </div>
 
