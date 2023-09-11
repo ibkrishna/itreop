@@ -242,5 +242,5 @@ cursor: pointer;
 
 .row{
   overflow-x: hidden;
-  max-width: 100%;
+  min-width: 100%;
 }

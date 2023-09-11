@@ -22,7 +22,7 @@ function SMarketing() {
       
 
             <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               <img className="img-fluid slide-in-left" src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="About Us" />
@@ -56,7 +56,7 @@ function SMarketing() {
           {/* <h1 className="mb-3">Strategy</h1> */}
           <p className="mb-5">Understanding goals, researching target audience, crafting compelling content, scheduling strategic posts, analyzing results. Iterating for optimal engagement and growth</p>
         </div>
-        <Row className="g-4">
+        <Row className="g-4" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={3} md={6} className="wow fadeInUp" data-wow-delay="0.1s">
             <div className="advanced-feature-item text-center rounded py-5 px-4">
               {/* <i className="fa fa-edit fa-3x text-primary mb-4"></i> */}

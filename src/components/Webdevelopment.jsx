@@ -24,7 +24,7 @@ function Webdevelopment() {
 
 
       <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/development-growth-progress-icon-concept_53876-13732.jpg?size=626&ext=jpg&uid=R114195933&ga=GA1.2.750320620.1691166365&semt=ais" alt="About Us" />
@@ -42,7 +42,7 @@ function Webdevelopment() {
       </Container>
 
       <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+        <Row className="g-5-align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 
@@ -69,11 +69,11 @@ function Webdevelopment() {
 
 
       <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               
-              <img className="img-fluid slide-in-right" src="https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150104516.jpg?w=1380&t=st=1693480487~exp=1693481087~hmac=1ce42d60a372a8efda632d335139fa16f0dd34d7cc26006b9fa693fe12f458c1" alt="About Us" />
+              <img className="img-fluid slide-in-right" src="https://social.industries/wp-content/uploads/2019/03/header-dynamic-data.jpg" alt="About Us" />
             </div>
           </Col>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
@@ -88,7 +88,7 @@ function Webdevelopment() {
       </Container>
 
       <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+        <Row className="g-5-align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 
@@ -111,7 +111,7 @@ function Webdevelopment() {
 
 
       <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/education-application-knowledge-development-concept_53876-105721.jpg?size=626&ext=jpg&uid=R114195933&ga=GA1.2.750320620.1691166365&semt=ais" alt="About Us" />
@@ -129,7 +129,7 @@ function Webdevelopment() {
       </Container>
 
       <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+        <Row className="g-5-align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 

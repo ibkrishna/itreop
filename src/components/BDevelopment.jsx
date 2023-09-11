@@ -21,7 +21,7 @@ function BDevelopment() {
 
 
             <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/beautiful-cryptocurrency-hologram-design_23-2149250217.jpg?size=626&ext=jpg&uid=R114195933&ga=GA1.2.750320620.1691166365&semt=ais" alt="About Us" />
@@ -40,7 +40,7 @@ function BDevelopment() {
       </Container>
 
       <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+        <Row className="g-5-align-items-center"style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 
@@ -65,7 +65,7 @@ Unlock the power of private blockchain development to bolster your business oper
 
 
       <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               <img className="img-fluid slide-in-left" src="https://www.comparethecloud.net/wp-content/uploads/2019/06/blockchain-3019121_1920.png" alt="About Us" />
@@ -88,7 +88,7 @@ Unlock the power of private blockchain development to bolster your business oper
       </Container>
 
       <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+        <Row className="g-5-align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 

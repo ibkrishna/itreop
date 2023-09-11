@@ -12,7 +12,7 @@ function Vission() {
         </div>
 
         <Container>
-          <Row className="g-5 align-items-center">
+          <Row className="g-5_align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
             <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
               <div className="second-img">
                 <img className="img-fluid slide-in-left" src="https://t3.ftcdn.net/jpg/01/37/90/78/360_F_137907818_LNzsqtQT7OAZ98BuA3T4TKiEbEOY543G.jpg" alt="About Us" />
@@ -31,7 +31,7 @@ function Vission() {
         </Container>
 
         <Container style={{margin: "3rem auto"}}>
-          <Row className="g-5-align-items-center">
+          <Row className="g-5-align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}} >
 
             <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 

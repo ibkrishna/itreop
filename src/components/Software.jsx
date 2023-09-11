@@ -25,8 +25,8 @@ function Software() {
 
 
 
-      <Container>
-        <Row className="g-5 align-items-center">
+      <Container  >
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               <img className="img-fluid slide-in-left" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" alt="About Us" />
@@ -44,8 +44,8 @@ function Software() {
         </Row>
       </Container>
 
-      <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+      <Container style={{ margin: "3rem auto" }} >
+        <Row className="g-5-align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 
@@ -68,7 +68,7 @@ function Software() {
 
 
       <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               <img className="img-fluid slide-in-left" src="https://media.istockphoto.com/id/1054574144/photo/industrial-technology-concept.jpg?s=612x612&w=0&k=20&c=jHQSw3CtAYJr4wsmzDCD6ByWu33XCRFAHNpuulpPXC0=" alt="About Us" />
@@ -86,7 +86,7 @@ function Software() {
       </Container>
 
       <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+        <Row className="g-5-align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}> 
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 

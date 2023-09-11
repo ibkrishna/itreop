@@ -1,30 +1,39 @@
-import { useRef } from "react"
-import emailjs from '@emailjs/browser';
-import bannerimg1 from '../../assets/img/bannerimg1.jpeg';
 
-
+import { useState } from "react";
 import "./contact.css"
 const Contactform = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    subject: '',
+    email: '',
+    message: '',
+  });
 
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_vp5g5j9', 'template_mtfmtae', form.current, 'bWn7jqsReyviMOoD4')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
-
-    e.target.reset()
+  const handleInputChange = (event) => {
+    const { id, value } = event.target;
+    setFormData({ ...formData, [id]: value });
   };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    try {
+      const response = await fetch("https://sore-rose-perch-tam.cyclic.app/contact/postContactDetails", {
+        method: "POST",
+        body: JSON.stringify(formData),
+      });
+      const result = await response.json();
+      console.log("Success:", result);
+    } catch (error) {
+      console.error("Error:", error);
+    }
+    console.log('Form Data:', formData);
+  };
+
   return (
 
     <>
 
-      <div className="container-xxl" style={{ paddingTop: "8rem", paddingBottom: "3rem" }}>
+      <div className="container-xxl" style={{ paddingTop: "8rem", paddingBottom: "3rem", overflowX: "hidden", maxWidth: "100%" }}>
         <div className="container">
           <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "500px" }}>
             <p className="fs-5 fw-medium text-primary">Contact Us</p>
@@ -33,29 +42,57 @@ const Contactform = () => {
           <div className="row g-5">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
               <h3 className="mb-4">Quick Connects </h3>
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="row g-3">
                   <div className="col-md-6">
                     <div className="form-floating">
-                      <input type="text" className="form-control" id="name" placeholder="Your Name" />
+                      <input
+                        type="text"
+                        className="form-control"
+                        id="name"
+                        placeholder="Your Name"
+                        value={formData.name}
+                        onChange={handleInputChange}
+                      />
                       <label htmlFor="name">Name</label>
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-floating">
-                      <input type="email" className="form-control" id="email" placeholder="Your Email" />
+                      <input
+                        type="email"
+                        className="form-control"
+                        id="email"
+                        placeholder="Your Email"
+                        value={formData.email}
+                        onChange={handleInputChange}
+                      />
                       <label htmlFor="email">Email</label>
                     </div>
                   </div>
                   <div className="col-12">
                     <div className="form-floating">
-                      <input type="text" className="form-control" id="subject" placeholder="Subject" />
+                      <input
+                        type="text"
+                        className="form-control"
+                        id="subject"
+                        placeholder="Subject"
+                        value={formData.subject}
+                        onChange={handleInputChange}
+                      />
                       <label htmlFor="subject">Subject</label>
                     </div>
                   </div>
                   <div className="col-12">
                     <div className="form-floating">
-                      <textarea className="form-control" placeholder="Leave a message here" id="message" style={{ height: "200px" }}></textarea>
+                      <textarea
+                        className="form-control"
+                        placeholder="Leave a message here"
+                        id="message"
+                        style={{ height: "200px" }}
+                        value={formData.message}
+                        onChange={handleInputChange}
+                      ></textarea>
                       <label htmlFor="message">Message</label>
                     </div>
                   </div>
@@ -84,7 +121,7 @@ const Contactform = () => {
 
                   <h6>Call Us</h6>
                   <span>
-                    <a className="call-icon-contactus" href="tel:+919650388201" style={{textDecoration: "none"}}>
+                    <a className="call-icon-contactus" href="tel:+919650388201" style={{ textDecoration: "none" }}>
                       +91 9650388201
                     </a>
                   </span>
@@ -99,7 +136,7 @@ const Contactform = () => {
                 <div className="ms-3">
 
                   <h6>Mail Us</h6>
-                  <span>  <a href=" mailto:support@corplyxtechnologies.com" style={{textDecoration: "none"}} >support@corplyxtechnologies.com</a></span>
+                  <span>  <a href=" mailto:support@corplyxtechnologies.com" style={{ textDecoration: "none" }} >support@corplyxtechnologies.com</a></span>
                 </div>
               </div>
               <iframe className="w-100 rounded"

@@ -16,7 +16,7 @@ function Choose() {
   return (
 <div className="container-fluid bg-light mt-5 py-5">
             <Container>
-                <Row className="g-5 align-items-center">
+                <Row className="g-5 align-items-center" style={{width: "auto"}}>
                     <Col lg={5} className="wow fadeIn" data-wow-delay="0.1s">
                         <p variant="outline-primary" style={{width: "fit-content"}} size="sm" className="border rounded-pill text-primary px-3 mb-3">Why Us</p>
                         <h1 className="mb-4">Why Choose Us </h1>
@@ -27,7 +27,7 @@ function Choose() {
                     <Col lg={7}>
                         <Row className="g-4">
                             {serviceItems.map((item, index) => (
-                                <Col md={6} key={index} className="wow fadeIn" data-wow-delay={`${index * 0.2 + 0.1}s`}>
+                                <Col md={6}  key={index} className="wow fadeIn" data-wow-delay={`${index * 0.2 + 0.1}s`}>
                                     <div className="whyus-item d-flex flex-column justify-content-center text-center rounded">
                                         <div className="whyus-icon btn-square">
                                             {item.icon}

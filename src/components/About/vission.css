@@ -69,4 +69,8 @@
 
 .g-5-align-items-center {
   flex-wrap: wrap-reverse;
+  width: auto;
+}
+.g-5_align-items-center{
+  width: auto;
 }

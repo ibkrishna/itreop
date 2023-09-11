@@ -21,7 +21,7 @@ function Cyber() {
             </div>
 
             <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041848.jpg?w=1060&t=st=1693221379~exp=1693221979~hmac=16eae6302829d5b65705eb10c5539ce20587b102465794ca07d8b915b6be9ac5" alt="About Us" />
@@ -40,7 +40,7 @@ function Cyber() {
       </Container>
 
       <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+        <Row className="g-5-align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 
@@ -55,7 +55,7 @@ function Cyber() {
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
-              <img className="img-fluid slide-in-right" src="https://img.freepik.com/free-photo/person-working-html-computer_23-2150038843.jpg?w=1060&t=st=1693221826~exp=1693222426~hmac=b92dfc16a442631310f17e4e32e69b685db12bfc7a7b6d6c732d0f359ce02352" alt="About Us" />
+              <img className="img-fluid slide-in-right" src=" https://www.everbridge.com/wp-content/uploads/2021/05/it-cyber-security.jpg" alt="About Us" />
             </div>
           </Col>
         </Row>
@@ -63,10 +63,10 @@ function Cyber() {
 
 
       <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
-              <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/female-hacker-with-her-team-cyber-terrorists-making-dangerous-virus-attack-government_482257-23001.jpg?w=1060&t=st=1693221944~exp=1693222544~hmac=9b7460f7657d64c8cec372d1bd1d1d6878765d074b5cb68552ef1f9a0e105e40" alt="About Us" />
+              <img className="img-fluid slide-in-left" src="https://study.com/cimages/course-image/computer-science-202-network-and-system-security_1030285_large.jpeg" alt="About Us" />
             </div>
           </Col>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
@@ -81,7 +81,7 @@ function Cyber() {
       </Container>
 
       <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+        <Row className="g-5-align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 
@@ -96,7 +96,7 @@ function Cyber() {
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
-              <img className="img-fluid slide-in-right" src="https://img.freepik.com/free-photo/social-media-marketing-concept-marketing-with-applications_23-2150063165.jpg?w=900&t=st=1693222016~exp=1693222616~hmac=0b167714c6d480a93158b34ce7fc13193f54200c5090ac6dd949c0ed61e20f72" alt="About Us" />
+              <img className="img-fluid slide-in-right" src="https://spiderindia.com/spiderblog/wp-content/uploads/2020/11/Mobile_App_Security_Threats_Best_Practices_Introduction.jpg" alt="About Us" />
             </div>
           </Col>
         </Row>

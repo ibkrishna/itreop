@@ -33,19 +33,19 @@ export default function CareerModal(props) {
             type="text"
             name="fullname"
             className="form-control"
-            id="exampleInputName"
+            id="name"
             placeholder="Enter Your Name "
             required
           />
         </div>
 
         <div className="form-group">
-          <label htmlFor="exampleInputName">Education</label>
+          <label htmlFor="education">Education</label>
           <input
             type="text"
             name="fullname"
             className="form-control"
-            id="exampleInputName"
+            id="education"
             placeholder="Education"
 
             required
@@ -58,8 +58,21 @@ export default function CareerModal(props) {
             type="text"
             name="fullname"
             className="form-control"
-            id="exampleInputName"
+            id="year"
             placeholder="Enter Passing year"
+
+            required
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="exampleInputName">Paste google drive link of your Resume/CV</label>
+          <input
+            type="text"
+            name="fullname"
+            className="form-control"
+            id="url"
+            placeholder="Link"
 
             required
           />
@@ -67,10 +80,10 @@ export default function CareerModal(props) {
 
     
         {/* ... other form elements */}
-        <div className="form-group mt-3">
+        {/* <div className="form-group mt-3">
           <label className="mr-4">Upload your CV:</label>
           <input type="file" name="file" />
-        </div>
+        </div> */}
         <button type="submit" className="btn button-main" style={{margin: "0 auto", display: "block"}}>Submit</button>
       </form>
     </div>

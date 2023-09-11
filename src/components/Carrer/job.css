@@ -99,19 +99,6 @@
     cursor: pointer;
   }
   
-  /* .apply_requirements button {
-    background-color: #28a745;
-    border: none;
-    height: 40px;
-    width: 100px;
-    border-radius: 10px;
-  }
-  
-  .apply_requirements button:hover {
-    background-color: #218838;
-    
-  }
-   */
   /* Responsive Styles */
   
   @media (max-width: 768px) {

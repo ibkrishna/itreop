@@ -19,7 +19,7 @@ function Search() {
                 <h1>Search Engine Optimization </h1>
             </div>
             <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               <img className="img-fluid slide-in-left" src="https://cdn.pixabay.com/photo/2017/12/09/09/08/seo-3007488_1280.jpg" alt="About Us" />

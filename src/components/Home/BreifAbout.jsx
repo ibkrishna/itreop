@@ -9,7 +9,7 @@ function BriefAbout() {
                 <Row className="g-5 align-items-center">
                     <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
                         <div className="about-img">
-                            <img className="img-fluid scale-in-center" src="https://img.freepik.com/free-photo/modern-equipped-computer-lab_23-2149241213.jpg?w=1380&t=st=1693503400~exp=1693504000~hmac=37d825cd83d988ccbc06e873f5b246660e7d59170f5e74b96b7d3761cf87e717" alt="About Us" />
+                            <img className="img-fluid scale-in-center" src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aXQlMjBjb21wYW55fGVufDB8fDB8fHww&w=1000&q=80" alt="About Us" />
                         </div>
                     </Col>
                     <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">

@@ -29,11 +29,11 @@ function GADevelopment() {
 
 
     
-            <Container>
-        <Row className="g-5 align-items-center">
+            <Container >
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
-              <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/professional-player-wearing-vr-goggles-sitting-gaming-chair-playing-online-space-shooter-game_482257-538.jpg?w=1380&t=st=1693480824~exp=1693481424~hmac=c10d8b1ea5647bb00f6cced77b4ccbdb8c5856c010dddc86bcc021e54c0d4248" alt="About Us" />
+              <img className="img-fluid slide-in-left" src="https://www.techrepublic.com/wp-content/uploads/2022/07/top-ide-software.jpeg" alt="About Us" />
             </div>
           </Col>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
@@ -49,7 +49,7 @@ function GADevelopment() {
       </Container>
 
       <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+        <Row className="g-5-align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 
@@ -64,7 +64,7 @@ function GADevelopment() {
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
-              <img className="img-fluid slide-in-right" src="https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150104519.jpg?w=1380&t=st=1693480874~exp=1693481474~hmac=1dca7014aaca455a3ded70f443f3e142408b902bdff366dc3661a4db8d38ea1c" alt="About Us" />
+              <img className="img-fluid slide-in-right" src="https://contentstatic.techgig.com/photo/99630784/best-programming-languages-for-game-development-in-2023.jpg?261590" alt="About Us" />
             </div>
           </Col>
         </Row>
@@ -72,7 +72,7 @@ function GADevelopment() {
 
 
       <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               <img className="img-fluid slide-in-left" src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="About Us" />
@@ -90,7 +90,7 @@ function GADevelopment() {
       </Container>
 
       <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+        <Row className="g-5-align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 

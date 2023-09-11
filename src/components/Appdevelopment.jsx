@@ -23,7 +23,7 @@ function Appdevelopment() {
 
 
             <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150038906.jpg?size=626&ext=jpg&uid=R114195933&ga=GA1.2.750320620.1691166365&semt=ais" alt="About Us" />
@@ -43,7 +43,7 @@ function Appdevelopment() {
       </Container>
 
       <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+        <Row className="g-5-align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 
@@ -71,7 +71,7 @@ function Appdevelopment() {
 
 
       <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150104473.jpg?size=626&ext=jpg&uid=R114195933&ga=GA1.2.750320620.1691166365&semt=ais" alt="About Us" />
@@ -91,7 +91,7 @@ function Appdevelopment() {
       </Container>
 
       <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+        <Row className="g-5-align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 
@@ -114,7 +114,7 @@ function Appdevelopment() {
 
 
       <Container>
-        <Row className="g-5 align-items-center">
+        <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
               <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/close-up-mobile-phone-with-cloud-apps_1134-88.jpg?size=626&ext=jpg&uid=R114195933&ga=GA1.2.750320620.1691166365&semt=ais" alt="About Us" />
@@ -134,7 +134,7 @@ function Appdevelopment() {
       </Container>
 
       <Container style={{ margin: "3rem auto" }}>
-        <Row className="g-5-align-items-center">
+        <Row className="g-5-align-items-center"style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}} >
 
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
 
