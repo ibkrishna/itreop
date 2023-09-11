@@ -24,7 +24,7 @@ function Cyber() {
         <Row className="g-5 align-items-center" style={{ overflowX: "hidden", maxWidth: "100%", paddingLeft:"20px ",width:"100%"}}>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.1s">
             <div className="second-img">
-              <img className="img-fluid slide-in-left" src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041848.jpg?w=1060&t=st=1693221379~exp=1693221979~hmac=16eae6302829d5b65705eb10c5539ce20587b102465794ca07d8b915b6be9ac5" alt="About Us" />
+              <img className="img-fluid slide-in-left" src="https://innovationatwork.ieee.org/wp-content/uploads/2017/09/bigstock-Futuristic-integrated-circuit-56086169.jpg" alt="About Us" />
             </div>
           </Col>
           <Col lg={6} className="wow fadeIn" data-wow-delay="0.5s">
